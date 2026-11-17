@@ -1,0 +1,140 @@
+{
+ "status": "EXPLORATORY",
+ "M": 128,
+ "T": 8000,
+ "rows": [
+  {
+   "mode": "ind",
+   "act": 0.05,
+   "explore": 0.1,
+   "solved_final": 0.0,
+   "ever": 0.0,
+   "occupancy": 0.0,
+   "median_first": null,
+   "mean_D": 50.0,
+   "mean_colours": 3.0
+  },
+  {
+   "mode": "ind",
+   "act": 0.05,
+   "explore": 0.5,
+   "solved_final": 0.0,
+   "ever": 0.0,
+   "occupancy": 0.0,
+   "median_first": null,
+   "mean_D": 50.0,
+   "mean_colours": 3.0
+  },
+  {
+   "mode": "ind",
+   "act": 0.2,
+   "explore": 0.1,
+   "solved_final": 0.0,
+   "ever": 0.0,
+   "occupancy": 0.0,
+   "median_first": null,
+   "mean_D": 50.0,
+   "mean_colours": 3.0
+  },
+  {
+   "mode": "ind",
+   "act": 0.2,
+   "explore": 0.5,
+   "solved_final": 0.0,
+   "ever": 0.0,
+   "occupancy": 0.0,
+   "median_first": null,
+   "mean_D": 50.0,
+   "mean_colours": 3.0
+  },
+  {
+   "mode": "coll",
+   "act": 0.05,
+   "explore": 0.1,
+   "solved_final": 0.0625,
+   "ever": 0.0625,
+   "occupancy": 0.04512890625,
+   "median_first": 6510.5,
+   "mean_D": 23.890625,
+   "mean_colours": 4.9375
+  },
+  {
+   "mode": "coll",
+   "act": 0.05,
+   "explore": 0.5,
+   "solved_final": 0.0,
+   "ever": 0.0,
+   "occupancy": 0.0,
+   "median_first": null,
+   "mean_D": 68.078125,
+   "mean_colours": 7.9296875
+  },
+  {
+   "mode": "coll",
+   "act": 0.2,
+   "explore": 0.1,
+   "solved_final": 0.09375,
+   "ever": 0.09375,
+   "occupancy": 0.0688671875,
+   "median_first": 6145.5,
+   "mean_D": 23.546875,
+   "mean_colours": 4.90625
+  },
+  {
+   "mode": "coll",
+   "act": 0.2,
+   "explore": 0.5,
+   "solved_final": 0.0,
+   "ever": 0.0,
+   "occupancy": 0.0,
+   "median_first": null,
+   "mean_D": 82.765625,
+   "mean_colours": 9.5390625
+  },
+  {
+   "mode": "D",
+   "act": 0.05,
+   "explore": 0.1,
+   "solved_final": 1.0,
+   "ever": 1.0,
+   "occupancy": 1.0,
+   "median_first": 442.0,
+   "mean_D": 0.0,
+   "mean_colours": 4.0
+  },
+  {
+   "mode": "D",
+   "act": 0.05,
+   "explore": 0.5,
+   "solved_final": 0.9765625,
+   "ever": 0.9765625,
+   "occupancy": 0.93541796875,
+   "median_first": 2965.0,
+   "mean_D": 0.046875,
+   "mean_colours": 4.0234375
+  },
+  {
+   "mode": "D",
+   "act": 0.2,
+   "explore": 0.1,
+   "solved_final": 1.0,
+   "ever": 1.0,
+   "occupancy": 0.99065625,
+   "median_first": 1708.0,
+   "mean_D": 0.0,
+   "mean_colours": 4.0
+  },
+  {
+   "mode": "D",
+   "act": 0.2,
+   "explore": 0.5,
+   "solved_final": 0.0,
+   "ever": 0.0,
+   "occupancy": 0.0,
+   "median_first": null,
+   "mean_D": 11.5,
+   "mean_colours": 8.546875
+  }
+ ],
+ "seconds": 46.044103384017944
+}

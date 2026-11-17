@@ -29,3 +29,11 @@ También plantea buscar *generalización tardía*: una comunidad domina primero 
 ## Alcance
 
 La aportación de este trabajo de clase es el diseño experimental. El documento desarrolla las reglas propuestas para NetLogo, los indicadores, los controles y una posible validación con participantes humanos. Las figuras son didácticas. Para interpretar la recuperación conviene registrar por separado la pérdida de memoria y el desequilibrio que introduzca el color inicial de los recién llegados.
+
+## Formalización y simulación
+
+La carpeta [`formalizacion/`](formalizacion/) implementa el diseño y prueba sus predicciones con
+hipótesis preregistradas. Resultado principal: con la señal colectiva del documento, una comunidad
+que ya coordinaba sobrevive al relevo de un tercio de sus miembros en el 100% de los casos si los
+recién llegados entran con colores que ya usa la comunidad, y en torno al 3% si entran con
+cualquier color. Lo que transmite la socialización es el vocabulario del grupo.

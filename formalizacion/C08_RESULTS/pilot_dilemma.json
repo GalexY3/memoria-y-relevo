@@ -1,0 +1,59 @@
+{
+ "status": "EXPLORATORY",
+ "rows": [
+  {
+   "skew": 0.0,
+   "bonus": 0.002,
+   "solved": 1.0,
+   "ever": 1.0,
+   "occupancy": 1.0,
+   "mean_D": 0.0,
+   "at_pref": 0.234921875
+  },
+  {
+   "skew": 0.0,
+   "bonus": 0.005,
+   "solved": 1.0,
+   "ever": 1.0,
+   "occupancy": 1.0,
+   "mean_D": 0.0,
+   "at_pref": 0.20765625
+  },
+  {
+   "skew": 0.0,
+   "bonus": 0.02,
+   "solved": 0.1171875,
+   "ever": 1.0,
+   "occupancy": 0.12856640625,
+   "mean_D": 4.0,
+   "at_pref": 0.88109375
+  },
+  {
+   "skew": 0.2,
+   "bonus": 0.002,
+   "solved": 1.0,
+   "ever": 1.0,
+   "occupancy": 1.0,
+   "mean_D": 0.0,
+   "at_pref": 0.1775
+  },
+  {
+   "skew": 0.2,
+   "bonus": 0.005,
+   "solved": 1.0,
+   "ever": 1.0,
+   "occupancy": 1.0,
+   "mean_D": 0.0,
+   "at_pref": 0.189609375
+  },
+  {
+   "skew": 0.2,
+   "bonus": 0.02,
+   "solved": 0.0,
+   "ever": 0.6796875,
+   "occupancy": 0.0037304687500000003,
+   "mean_D": 16.578125,
+   "at_pref": 0.733359375
+  }
+ ]
+}
