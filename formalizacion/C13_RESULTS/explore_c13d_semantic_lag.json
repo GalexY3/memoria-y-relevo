@@ -1,0 +1,78 @@
+{
+ "status": "EXPLORATORY",
+ "M": 256,
+ "rows": [
+  {
+   "name": "relief",
+   "n": 256,
+   "admitted": 0.828125,
+   "lag_median": 246.5,
+   "lag_q25": 54.75,
+   "lag_q75": 1795.0,
+   "share_semantics_first": 0.0,
+   "share_no_structure": 0.0,
+   "adapt_meanD": 16.507860677083336,
+   "adapt_ever": 0.7578125
+  },
+  {
+   "name": "theta8_U1",
+   "n": 256,
+   "admitted": 1.0,
+   "lag_median": 7.0,
+   "lag_q25": 2.0,
+   "lag_q75": 25.0,
+   "share_semantics_first": 0.0,
+   "share_no_structure": 0.0,
+   "adapt_meanD": 4.271506510416668,
+   "adapt_ever": 1.0
+  },
+  {
+   "name": "theta5_U1",
+   "n": 256,
+   "admitted": 1.0,
+   "lag_median": -12.0,
+   "lag_q25": -19.0,
+   "lag_q75": -6.0,
+   "share_semantics_first": 1.0,
+   "share_no_structure": 0.015625,
+   "adapt_meanD": 5.36033984375,
+   "adapt_ever": 0.94140625
+  },
+  {
+   "name": "sampled_n50",
+   "n": 256,
+   "admitted": 1.0,
+   "lag_median": -17.0,
+   "lag_q25": -44.5,
+   "lag_q75": -8.0,
+   "share_semantics_first": 0.9765625,
+   "share_no_structure": 0.4453125,
+   "adapt_meanD": 3.6276328125,
+   "adapt_ever": 1.0
+  },
+  {
+   "name": "comm_W50",
+   "n": 256,
+   "admitted": 1.0,
+   "lag_median": -12.5,
+   "lag_q25": -33.25,
+   "lag_q75": 14.0,
+   "share_semantics_first": 0.70703125,
+   "share_no_structure": 0.1875,
+   "adapt_meanD": 4.96002734375,
+   "adapt_ever": 1.0
+  },
+  {
+   "name": "comm_W200",
+   "n": 256,
+   "admitted": 0.953125,
+   "lag_median": 174.5,
+   "lag_q25": 119.75,
+   "lag_q75": 725.25,
+   "share_semantics_first": 0.01639344262295082,
+   "share_no_structure": 0.0,
+   "adapt_meanD": 13.068225260416668,
+   "adapt_ever": 0.875
+  }
+ ]
+}

@@ -44,7 +44,7 @@ y en el dilema el reparto equilibrado se mantiene si el premio privado es menor 
 ## Resultados
 
 Todas las fases principales están preregistradas, con huellas SHA-256 del código fijadas antes de
-ejecutar. En total, 54 de 58 hipótesis confirmadas; las cuatro refutadas se describen abajo. Una
+ejecutar. En total, 58 de 62 hipótesis confirmadas; las cuatro refutadas se describen abajo. Una
 reimplementación ciega a partir de una especificación escrita reproduce los resultados principales
 (`replicacion_ciega/`).
 
@@ -192,6 +192,17 @@ Un umbral fijo de un tercio del tamaño que se pide funciona en las cinco fusion
 una autodescripción interesada lleva bien las reorganizaciones suaves y entra en crisis de sentido
 en las radicales.
 
+**11. ¿La semántica sigue a la estructura o se le adelanta? (`PREREG_C13D_DESFASE_SEMANTICO.md`, 4 de 4).**
+Se mide en cada comunidad cuánto tarda una categoría nueva en entrar en el canon desde que alcanza un
+tercio de su tamaño:
+- **Con alivio:** el canon la nombra unos 170 turnos después y nunca antes. La semántica va por detrás
+  de la estructura.
+- **Con el canon ruidoso:** la nombra unos 22 turnos antes, en el 99% de las comunidades. El 40% de esas
+  categorías son falsos arranques que nunca llegan a existir, y aun así es el canon que mejor se adapta.
+
+Luhmann describió las dos cosas, el retraso de la semántica y las adquisiciones preadaptativas. El
+modelo indica cuándo ocurre cada una.
+
 Lectura: una autodescripción que se corrige para aliviarse va por detrás de la estructura cuando hay
 que crear y por delante cuando hay que olvidar. Es un mecanismo para la tesis de Luhmann de que la
 semántica sigue a la estructura con retraso. La autodescripción ruidosa y frecuente (como la jerga que
@@ -251,11 +262,12 @@ python c13b_confirm.py B; python c13b_confirm.py C; python c13b_confirm.py A   #
 python c13b_verdicts.py
 python c13b_uncertainty.py        # intervalos bootstrap emparejados de C13b
 python c13c_confirm.py; python c13c_verdicts.py   # el filo de la divisoria (≈25 min)
+python c13d_confirm.py            # desfase o adelanto de la semántica (≈3 min)
 python c13x_explore.py            # exploratorio: frecuencia, ruido y memoria
 python c13x_theta_u1.py
 ```
 
 Los archivos `FREEZE_*.txt` guardan las huellas SHA-256 del código y de los preregistros fijadas
 antes de ejecutar los análisis principales (`sha256sum -c FREEZE_C09C.txt`). En `FREEZE_C09.txt`,
-`FREEZE_C10.txt`, `FREEZE_C12.txt`, `FREEZE_C13.txt`, `FREEZE_C13B.txt` y `FREEZE_C13C.txt`, la ruta `../claude_cycle08/c08_sim.py` corresponde al
+`FREEZE_C10.txt`, `FREEZE_C12.txt`, `FREEZE_C13.txt`, `FREEZE_C13B.txt`, `FREEZE_C13C.txt` y `FREEZE_C13D.txt`, la ruta `../claude_cycle08/c08_sim.py` corresponde al
 `c08_sim.py` de esta carpeta (misma huella).
