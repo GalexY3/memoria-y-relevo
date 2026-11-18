@@ -1,0 +1,146 @@
+{
+ "status": "EXPLORATORY",
+ "rows": [
+  {
+   "signal": "C",
+   "kind": "s",
+   "s": 0.9,
+   "n": 64,
+   "stab_meanD": 30.82,
+   "adapt_meanD": 29.89,
+   "adapt_ever": 0.219,
+   "secs": 8
+  },
+  {
+   "signal": "C",
+   "kind": "s",
+   "s": 0.97,
+   "n": 64,
+   "stab_meanD": 15.32,
+   "adapt_meanD": 19.7,
+   "adapt_ever": 0.672,
+   "secs": 17
+  },
+  {
+   "signal": "C",
+   "kind": "s",
+   "s": 0.98,
+   "n": 64,
+   "stab_meanD": 11.75,
+   "adapt_meanD": 16.78,
+   "adapt_ever": 0.734,
+   "secs": 25
+  },
+  {
+   "signal": "C",
+   "kind": "s",
+   "s": 0.99,
+   "n": 64,
+   "stab_meanD": 6.84,
+   "adapt_meanD": 20.13,
+   "adapt_ever": 0.672,
+   "secs": 34
+  },
+  {
+   "signal": "C",
+   "kind": "q",
+   "s": 0.0,
+   "q": 0.1,
+   "n": 64,
+   "stab_meanD": 20.98,
+   "adapt_meanD": 22.62,
+   "adapt_ever": 0.594,
+   "secs": 46
+  },
+  {
+   "signal": "C",
+   "kind": "q",
+   "s": 0.0,
+   "q": 0.3,
+   "n": 64,
+   "stab_meanD": 5.29,
+   "adapt_meanD": 15.1,
+   "adapt_ever": 0.906,
+   "secs": 57
+  },
+  {
+   "signal": "C",
+   "kind": "q",
+   "s": 0.0,
+   "q": 0.4,
+   "n": 64,
+   "stab_meanD": 2.68,
+   "adapt_meanD": 22.08,
+   "adapt_ever": 0.75,
+   "secs": 68
+  },
+  {
+   "signal": "C",
+   "kind": "q",
+   "s": 0.0,
+   "q": 0.7,
+   "n": 64,
+   "stab_meanD": 1.74,
+   "adapt_meanD": 35.33,
+   "adapt_ever": 0.234,
+   "secs": 79
+  },
+  {
+   "signal": "C",
+   "kind": "c",
+   "s": 0.0,
+   "cryst": 0.9,
+   "n": 64,
+   "stab_meanD": 25.1,
+   "adapt_meanD": 27.69,
+   "adapt_ever": 0.312,
+   "secs": 87
+  },
+  {
+   "signal": "C",
+   "kind": "c",
+   "s": 0.0,
+   "cryst": 0.98,
+   "n": 64,
+   "stab_meanD": 8.28,
+   "adapt_meanD": 13.74,
+   "adapt_ever": 0.891,
+   "secs": 95
+  },
+  {
+   "signal": "C",
+   "kind": "c",
+   "s": 0.0,
+   "cryst": 0.99,
+   "n": 64,
+   "stab_meanD": 2.47,
+   "adapt_meanD": 17.99,
+   "adapt_ever": 0.734,
+   "secs": 103
+  },
+  {
+   "signal": "D",
+   "kind": "q",
+   "s": 0.0,
+   "q": 0.5,
+   "lam": 1.0,
+   "n": 64,
+   "stab_meanD": 1.38,
+   "adapt_meanD": 5.83,
+   "adapt_ever": 1.0,
+   "secs": 115
+  },
+  {
+   "signal": "D",
+   "kind": "q",
+   "s": 0.0,
+   "q": 1.0,
+   "lam": 1.0,
+   "n": 64,
+   "stab_meanD": 1.24,
+   "adapt_meanD": 35.39,
+   "adapt_ever": 0.312,
+   "secs": 127
+  }
+ ]
+}

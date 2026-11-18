@@ -44,7 +44,7 @@ y en el dilema el reparto equilibrado se mantiene si el premio privado es menor 
 ## Resultados
 
 Todas las fases principales están preregistradas, con huellas SHA-256 del código fijadas antes de
-ejecutar. En total, 68 de 72 hipótesis confirmadas; las cuatro refutadas se describen abajo. Una
+ejecutar. En total, 76 de 80 hipótesis confirmadas; las cuatro refutadas se describen abajo. Una
 reimplementación ciega a partir de una especificación escrita reproduce los resultados principales
 (`replicacion_ciega/`).
 
@@ -238,6 +238,29 @@ La simulación reproduce la escalera que predice el teorema. Con grupos de 20 (a
 Lectura: crear exige casi todo el modelo y destruir casi nada. Una cohorte de fundadores sustituye al
 modelo que le falta al regulador.
 
+**14. Robustez compensatoria: identidad, socialización y sanción (`PREREG_C17_ROBUSTEZ_COMPENSATORIA.md`, 8 de 8).**
+Bajo rotación continua se comparan tres formas de sostener el orden cuando cambian los miembros:
+- **Cristalización c:** quien vuelve es reconocido y conserva su categoría (identidad persistente).
+- **Socialización s:** el recién llegado adopta una categoría existente.
+- **Sanción q:** quien está en una categoría muy pequeña es empujado a la de un vecino.
+
+Con la señal que no sabe cuántos grupos debe haber:
+- **Ley de sustitución:** la identidad y la socialización actúan a través de una sola cantidad, la
+  tasa de reentradas ni reconocidas ni socializadas, ρ = (1 − c)(1 − s). Al intercambiar c y s, el
+  desorden cambia como mucho un 17%.
+- **Socialización mínima:** cae como s_min = 1 − ρ*/(1 − c). Sin identidad persistente hay que
+  socializar a casi todos; con c = 0,95, a nadie.
+- **Coste:** la compensación total da orden perfecto y anula la capacidad de crear la categoría que
+  el entorno pide. La adaptación es máxima con ρ intermedio.
+- **Equivalentes funcionales con consecuencias distintas:** a igual orden, la sanción conserva más
+  capacidad de crear que la socialización (89% frente a 77%). La sanción deja escapar la desviación
+  que crece porque el entorno la favorece; la socialización suprime la variedad en la entrada.
+- **Sobrerregulación:** con identidades fuertes, la misma sanción se vuelve rigidez (del 90% al 23%).
+
+Con la señal que sí lo sabe no hace falta compensar, pero la tolerancia cero sigue bloqueando la
+creación (34%), porque una categoría nueva solo sobrevive si nace con varios miembros a la vez.
+Figura en `C17_RESULTS/c17_figura.png`.
+
 Lectura: una autodescripción que se corrige para aliviarse va por detrás de la estructura cuando hay
 que crear y por delante cuando hay que olvidar. Es un mecanismo para la tesis de Luhmann de que la
 semántica sigue a la estructura con retraso. La autodescripción ruidosa y frecuente (como la jerga que
@@ -300,11 +323,12 @@ python c13c_confirm.py; python c13c_verdicts.py   # el filo de la divisoria (≈
 python c13d_confirm.py            # desfase o adelanto de la semántica (≈3 min)
 python c15_markov.py; python c15_confirm.py; python c15_verdicts.py   # ultraestabilidad (≈25 min)
 python c16_confirm.py; python c16_verdicts.py   # fracción de modelo requerida (≈20 min)
+python c17_confirm.py C; python c17_confirm.py D; python c17_verdicts.py; python c17_figure.py   # robustez compensatoria (≈30 min)
 python c13x_explore.py            # exploratorio: frecuencia, ruido y memoria
 python c13x_theta_u1.py
 ```
 
 Los archivos `FREEZE_*.txt` guardan las huellas SHA-256 del código y de los preregistros fijadas
 antes de ejecutar los análisis principales (`sha256sum -c FREEZE_C09C.txt`). En `FREEZE_C09.txt`,
-`FREEZE_C10.txt`, `FREEZE_C12.txt`, `FREEZE_C13.txt`, `FREEZE_C13B.txt`, `FREEZE_C13C.txt`, `FREEZE_C13D.txt`, `FREEZE_C15.txt` y `FREEZE_C16.txt`, la ruta `../claude_cycle08/c08_sim.py` corresponde al
+`FREEZE_C10.txt`, `FREEZE_C12.txt`, `FREEZE_C13.txt`, `FREEZE_C13B.txt`, `FREEZE_C13C.txt`, `FREEZE_C13D.txt`, `FREEZE_C15.txt`, `FREEZE_C16.txt` y `FREEZE_C17.txt`, la ruta `../claude_cycle08/c08_sim.py` corresponde al
 `c08_sim.py` de esta carpeta (misma huella).
