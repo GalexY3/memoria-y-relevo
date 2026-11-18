@@ -1,0 +1,84 @@
+{
+ "status": "EXPLORATORY",
+ "M": 128,
+ "A": [
+  {
+   "mode": "none",
+   "theta": 0,
+   "recovered": 0.0546875,
+   "meanD": 32.78,
+   "canon_size": 4.0
+  },
+  {
+   "mode": "normative",
+   "theta": 0,
+   "recovered": 1.0,
+   "meanD": 0.8941640625,
+   "canon_size": 4.0
+  },
+  {
+   "mode": "constatative",
+   "theta": 3,
+   "recovered": 0.0859375,
+   "meanD": 27.451015624999997,
+   "canon_size": 5.199999999999999
+  },
+  {
+   "mode": "constatative",
+   "theta": 8,
+   "recovered": 1.0,
+   "meanD": 0.981515625,
+   "canon_size": 4.003515625
+  },
+  {
+   "mode": "constatative",
+   "theta": 15,
+   "recovered": 0.890625,
+   "meanD": 5.0704453125,
+   "canon_size": 3.8856445312500005
+  }
+ ],
+ "B": [
+  {
+   "mode": "none",
+   "theta": 0,
+   "stab_meanD": 8.367140625,
+   "adapt_meanD": 15.96290625,
+   "adapt_ever": 0.828125,
+   "canon_size_adapt": 4.0
+  },
+  {
+   "mode": "normative",
+   "theta": 0,
+   "stab_meanD": 1.7212395833333334,
+   "adapt_meanD": 30.056263020833335,
+   "adapt_ever": 0.0,
+   "canon_size_adapt": 4.0
+  },
+  {
+   "mode": "constatative",
+   "theta": 3,
+   "stab_meanD": 2.4798802083333333,
+   "adapt_meanD": 19.8561953125,
+   "adapt_ever": 0.2109375,
+   "canon_size_adapt": 5.864518229166666
+  },
+  {
+   "mode": "constatative",
+   "theta": 8,
+   "stab_meanD": 1.7212395833333334,
+   "adapt_meanD": 5.981330729166666,
+   "adapt_ever": 1.0,
+   "canon_size_adapt": 4.880338541666666
+  },
+  {
+   "mode": "constatative",
+   "theta": 15,
+   "stab_meanD": 1.7212395833333334,
+   "adapt_meanD": 29.8890859375,
+   "adapt_ever": 0.0234375,
+   "canon_size_adapt": 4.006575520833334
+  }
+ ],
+ "seconds": 40.88545775413513
+}

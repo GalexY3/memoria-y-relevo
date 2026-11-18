@@ -44,7 +44,7 @@ y en el dilema el reparto equilibrado se mantiene si el premio privado es menor 
 ## Resultados
 
 Todas las fases principales están preregistradas, con huellas SHA-256 del código fijadas antes de
-ejecutar. En total, 31 de 35 hipótesis confirmadas; las cuatro refutadas se describen abajo.
+ejecutar. En total, 36 de 40 hipótesis confirmadas; las cuatro refutadas se describen abajo.
 
 **1. Aprendizaje (exploratorio).** Agentes Q independientes no resuelven la tarea con ninguna
 señal. Con ensayo y reversión, la señal D llega a 4×25 en el 98–100% de las comunidades, la
@@ -121,6 +121,21 @@ solo cuando el regulador colectivo no contiene un modelo de la estructura que se
 el gatekeeping por jerga es intenso y la creación de tablones nuevos, como /pol/, la decide la
 administración, no los participantes: lo que el modelo espera de un sistema muy socializado.
 
+**7. La autodescripción como modelo del sistema (`PREREG_C12_AUTODESCRIPCION.md`, 5 de 5).** Los
+agentes evalúan su situación con un canon, la lista de categorías que el sistema reconoce como
+propias, al modo de unas Rules of the Internet. Si el canon es fijo, la comunidad se recupera siempre
+tras el relevo (100%, frente al 2% sin canon), pero nunca crea la categoría que el entorno exige. Si
+el canon se reescribe observando qué categorías tienen al menos θ miembros, consigue las dos cosas a
+la vez con un umbral intermedio (θ ≈ 8, un tercio del tamaño de grupo). Con un umbral bajo, la
+descripción convierte la desviación en canon; con uno alto, no reconoce lo nuevo.
+
+![Homeostasis y morfogénesis según el umbral de reconocimiento](C12_RESULTS/c12_figura.png)
+
+Lectura: la autodescripción le da al sistema el modelo de su propia estructura que le falta a la
+señal; si además se revisa observando al sistema, este puede cambiar de estructura sin depender de
+una administración externa. El umbral de reconocimiento funciona como una cristalización colectiva:
+el tamaño a partir del cual una categoría se vuelve reconocible para el sistema.
+
 ## Lectura sociológica (para discutir)
 
 La entrada con colores de la comunidad se parece a la socialización serial de Van Maanen y Schein
@@ -160,9 +175,11 @@ python c09_figures.py
 python c10_confirm.py            # paradoja del gatekeeping (≈30 min)
 python c10b_collapse.py          # tasa de desviación (≈15 min)
 python c10_figure.py
+python c12_confirm.py            # autodescripción y umbral de reconocimiento (≈10 min)
+python c12_figure.py
 ```
 
 Los archivos `FREEZE_*.txt` guardan las huellas SHA-256 del código y de los preregistros fijadas
-antes de ejecutar los análisis principales (`sha256sum -c FREEZE_C09C.txt`). En `FREEZE_C09.txt` y
-`FREEZE_C10.txt`, la ruta `../claude_cycle08/c08_sim.py` corresponde al `c08_sim.py` de esta carpeta
-(misma huella).
+antes de ejecutar los análisis principales (`sha256sum -c FREEZE_C09C.txt`). En `FREEZE_C09.txt`,
+`FREEZE_C10.txt` y `FREEZE_C12.txt`, la ruta `../claude_cycle08/c08_sim.py` corresponde al
+`c08_sim.py` de esta carpeta (misma huella).
