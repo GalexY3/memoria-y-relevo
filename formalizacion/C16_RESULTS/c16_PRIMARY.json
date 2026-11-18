@@ -1,0 +1,227 @@
+{
+ "status": "PRIMARY",
+ "M": 512,
+ "rows": [
+  {
+   "change": "4->5",
+   "lam": 0.0,
+   "n": 512,
+   "adapt_ever": 0.0,
+   "adapt_meanD": 40.0,
+   "t_med": null,
+   "secs": 58
+  },
+  {
+   "change": "4->5",
+   "lam": 0.3,
+   "n": 512,
+   "adapt_ever": 0.0,
+   "adapt_meanD": 40.0,
+   "t_med": null,
+   "secs": 95
+  },
+  {
+   "change": "4->5",
+   "lam": 0.55,
+   "n": 512,
+   "adapt_ever": 0.0,
+   "adapt_meanD": 40.0,
+   "t_med": null,
+   "secs": 131
+  },
+  {
+   "change": "4->5",
+   "lam": 0.65,
+   "n": 512,
+   "adapt_ever": 0.001953125,
+   "adapt_meanD": 39.951482421875,
+   "t_med": 2501.0,
+   "secs": 167
+  },
+  {
+   "change": "4->5",
+   "lam": 0.7,
+   "n": 512,
+   "adapt_ever": 0.134765625,
+   "adapt_meanD": 37.51477083333333,
+   "t_med": 3498.0,
+   "secs": 203
+  },
+  {
+   "change": "4->5",
+   "lam": 0.75,
+   "n": 512,
+   "adapt_ever": 0.134765625,
+   "adapt_meanD": 37.51477083333333,
+   "t_med": 3498.0,
+   "secs": 240
+  },
+  {
+   "change": "4->5",
+   "lam": 0.79,
+   "n": 512,
+   "adapt_ever": 0.1328125,
+   "adapt_meanD": 37.51396549479166,
+   "t_med": 3489.5,
+   "secs": 276
+  },
+  {
+   "change": "4->5",
+   "lam": 0.8,
+   "n": 512,
+   "adapt_ever": 1.0,
+   "adapt_meanD": 3.080080078125,
+   "t_med": 524.5,
+   "secs": 313
+  },
+  {
+   "change": "4->5",
+   "lam": 0.85,
+   "n": 512,
+   "adapt_ever": 1.0,
+   "adapt_meanD": 3.0619029947916667,
+   "t_med": 527.5,
+   "secs": 349
+  },
+  {
+   "change": "4->5",
+   "lam": 0.89,
+   "n": 512,
+   "adapt_ever": 1.0,
+   "adapt_meanD": 3.131559895833333,
+   "t_med": 742.5,
+   "secs": 385
+  },
+  {
+   "change": "4->5",
+   "lam": 0.9,
+   "n": 512,
+   "adapt_ever": 1.0,
+   "adapt_meanD": 0.8475266927083334,
+   "t_med": 417.5,
+   "secs": 421
+  },
+  {
+   "change": "4->5",
+   "lam": 1.0,
+   "n": 512,
+   "adapt_ever": 1.0,
+   "adapt_meanD": 0.8137578125,
+   "t_med": 491.0,
+   "secs": 458
+  },
+  {
+   "change": "5->10",
+   "lam": 0.5,
+   "n": 512,
+   "adapt_ever": 0.0,
+   "adapt_meanD": 97.5115625,
+   "t_med": null,
+   "secs": 520
+  },
+  {
+   "change": "5->10",
+   "lam": 0.55,
+   "n": 512,
+   "adapt_ever": 0.0,
+   "adapt_meanD": 97.5115625,
+   "t_med": null,
+   "secs": 556
+  },
+  {
+   "change": "5->10",
+   "lam": 0.6,
+   "n": 512,
+   "adapt_ever": 0.83203125,
+   "adapt_meanD": 15.731889973958332,
+   "t_med": 2034.0,
+   "secs": 592
+  },
+  {
+   "change": "5->10",
+   "lam": 0.65,
+   "n": 512,
+   "adapt_ever": 0.875,
+   "adapt_meanD": 14.350065104166667,
+   "t_med": 1832.5,
+   "secs": 627
+  },
+  {
+   "change": "5->10",
+   "lam": 0.7,
+   "n": 512,
+   "adapt_ever": 0.91015625,
+   "adapt_meanD": 11.177924479166666,
+   "t_med": 1625.5,
+   "secs": 662
+  },
+  {
+   "change": "5->10",
+   "lam": 0.8,
+   "n": 512,
+   "adapt_ever": 0.99609375,
+   "adapt_meanD": 2.156776041666667,
+   "t_med": 1151.5,
+   "secs": 697
+  },
+  {
+   "change": "5->10",
+   "lam": 1.0,
+   "n": 512,
+   "adapt_ever": 0.998046875,
+   "adapt_meanD": 1.9441536458333333,
+   "t_med": 1203.0,
+   "secs": 731
+  },
+  {
+   "change": "5->4",
+   "lam": 0.0,
+   "n": 512,
+   "adapt_ever": 0.083984375,
+   "adapt_meanD": 24.86673828125,
+   "t_med": 2769.0,
+   "secs": 791
+  },
+  {
+   "change": "5->4",
+   "lam": 0.05,
+   "n": 512,
+   "adapt_ever": 1.0,
+   "adapt_meanD": 0.7511777343749999,
+   "t_med": 438.5,
+   "secs": 825
+  },
+  {
+   "change": "5->4",
+   "lam": 0.1,
+   "n": 512,
+   "adapt_ever": 1.0,
+   "adapt_meanD": 0.7511777343749999,
+   "t_med": 438.5,
+   "secs": 860
+  },
+  {
+   "change": "5->4",
+   "lam": 0.5,
+   "n": 512,
+   "adapt_ever": 1.0,
+   "adapt_meanD": 0.68199609375,
+   "t_med": 401.0,
+   "secs": 895
+  },
+  {
+   "change": "5->4",
+   "lam": 1.0,
+   "n": 512,
+   "adapt_ever": 1.0,
+   "adapt_meanD": 0.508431640625,
+   "t_med": 324.0,
+   "secs": 920
+  }
+ ],
+ "seconds": 920,
+ "sha256": {
+  "c16_sim.py": "11df274482e812c8f98b7ab635d1b72b132486242842a8161abd2904c77ae7bd",
+  "c16_confirm.py": "fdc862d0c20f3a36c4f271e0bd8631a25445a8f6fb363bb20b3f488f85e28426"
+ }
+}
