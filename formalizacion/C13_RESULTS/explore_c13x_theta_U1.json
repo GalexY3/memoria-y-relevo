@@ -1,0 +1,78 @@
+{
+ "status": "EXPLORATORY",
+ "M": 256,
+ "B": [
+  {
+   "theta": 5,
+   "adapt_meanD": 6.0321367187499995,
+   "adapt_ever": 0.9140625
+  },
+  {
+   "theta": 6,
+   "adapt_meanD": 3.726420572916667,
+   "adapt_ever": 1.0
+  },
+  {
+   "theta": 7,
+   "adapt_meanD": 3.690897135416667,
+   "adapt_ever": 1.0
+  },
+  {
+   "theta": 8,
+   "adapt_meanD": 4.391705729166667,
+   "adapt_ever": 1.0
+  },
+  {
+   "theta": 10,
+   "adapt_meanD": 9.293779947916667,
+   "adapt_ever": 0.98046875
+  },
+  {
+   "theta": 12,
+   "adapt_meanD": 20.755755208333333,
+   "adapt_ever": 0.578125
+  },
+  {
+   "theta": 13,
+   "adapt_meanD": 25.4641953125,
+   "adapt_ever": 0.2890625
+  }
+ ],
+ "C": [
+  {
+   "theta": 5,
+   "adapt_meanD": 15.449338541666666,
+   "adapt_ever": 0.75
+  },
+  {
+   "theta": 6,
+   "adapt_meanD": 11.019722656250002,
+   "adapt_ever": 0.9140625
+  },
+  {
+   "theta": 7,
+   "adapt_meanD": 7.965020833333334,
+   "adapt_ever": 0.98046875
+  },
+  {
+   "theta": 8,
+   "adapt_meanD": 5.5029296875,
+   "adapt_ever": 1.0
+  },
+  {
+   "theta": 10,
+   "adapt_meanD": 3.5138932291666665,
+   "adapt_ever": 1.0
+  },
+  {
+   "theta": 12,
+   "adapt_meanD": 2.6924466145833335,
+   "adapt_ever": 1.0
+  },
+  {
+   "theta": 13,
+   "adapt_meanD": 2.4641536458333335,
+   "adapt_ever": 1.0
+  }
+ ]
+}

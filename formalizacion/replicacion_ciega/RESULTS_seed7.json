@@ -1,0 +1,89 @@
+{
+  "M": 256,
+  "seed": 7,
+  "R1": {
+    "n": 256,
+    "ticks": 8000,
+    "frac_D0_signal_D": 1.0,
+    "frac_D0_signal_C": 0.0546875,
+    "n_inst_k4": 256,
+    "frac_end_D0_signal_D": 1.0,
+    "frac_end_D0_signal_C": 0.0546875
+  },
+  "R2": {
+    "n": 256,
+    "frac_D0_after_replacement": 0.81640625,
+    "analytic_P_all4_in_10_incumbents": 0.8120135379654136,
+    "ticks": 4000
+  },
+  "R3": {
+    "theta3": {
+      "n": 256,
+      "frac_D0": 0.234375,
+      "meanD": 19.3721015625,
+      "n_K_reaches_newk": 146,
+      "median_first_K_eq_k_among_reaching": 50.0,
+      "median_first_K_eq_k_censored_inf": 150.0
+    },
+    "theta8": {
+      "n": 256,
+      "frac_D0": 1.0,
+      "meanD": 6.393774739583334,
+      "n_K_reaches_newk": 256,
+      "median_first_K_eq_k_among_reaching": 550.0,
+      "median_first_K_eq_k_censored_inf": 550.0
+    },
+    "theta15": {
+      "n": 256,
+      "frac_D0": 0.015625,
+      "meanD": 29.677786458333337,
+      "n_K_reaches_newk": 5,
+      "median_first_K_eq_k_among_reaching": 2300.0,
+      "median_first_K_eq_k_censored_inf": Infinity
+    }
+  },
+  "R4a": {
+    "constatative_theta8_same_run_as_R3": {
+      "n": 256,
+      "frac_D0": 1.0,
+      "meanD": 6.393774739583334,
+      "n_K_reaches_newk": 256,
+      "median_first_K_eq_k_among_reaching": 550.0,
+      "median_first_K_eq_k_censored_inf": 550.0
+    },
+    "relief": {
+      "n": 256,
+      "frac_D0": 0.72265625,
+      "meanD": 17.93410677083333,
+      "n_K_reaches_newk": 195,
+      "median_first_K_eq_k_among_reaching": 2371.0,
+      "median_first_K_eq_k_censored_inf": 3324.5,
+      "min_s_at_admission_phase2": 11,
+      "n_admissions_phase2": 195,
+      "n_comm_with_admission": 195
+    }
+  },
+  "R1_k5": {
+    "n": 256,
+    "frac_D0": 1.0,
+    "n_inst_k5": 256
+  },
+  "R4b": {
+    "relief": {
+      "n": 256,
+      "frac_D0": 1.0,
+      "meanD": 2.559796875,
+      "n_K_reaches_newk": 256,
+      "median_first_K_eq_k_among_reaching": 81.0,
+      "median_first_K_eq_k_censored_inf": 81.0
+    },
+    "constatative_theta8": {
+      "n": 256,
+      "frac_D0": 0.98046875,
+      "meanD": 8.773524739583333,
+      "n_K_reaches_newk": 252,
+      "median_first_K_eq_k_among_reaching": 1075.0,
+      "median_first_K_eq_k_censored_inf": 1125.0
+    }
+  }
+}

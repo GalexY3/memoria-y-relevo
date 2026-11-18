@@ -1,0 +1,104 @@
+{
+ "status": "PILOT",
+ "M": 128,
+ "scale": 1.0,
+ "n": 128,
+ "rows": [
+  {
+   "name": "none",
+   "n": 128,
+   "C_stab_meanD": 5.739458333333333,
+   "C_adapt_meanD": 29.99669791666667,
+   "C_adapt_ever": 0.0390625,
+   "C_t_D0_med": 5017.0,
+   "C_t_canon4_med": null,
+   "C_canon": 5.0,
+   "C_changes": 0.0,
+   "secs": 8
+  },
+  {
+   "name": "normative",
+   "n": 128,
+   "C_stab_meanD": 2.1774843749999997,
+   "C_adapt_meanD": 26.194979166666666,
+   "C_adapt_ever": 0.015625,
+   "C_t_D0_med": 2909.0,
+   "C_t_canon4_med": null,
+   "C_canon": 5.0,
+   "C_changes": 0.0,
+   "secs": 13
+  },
+  {
+   "name": "const_t8",
+   "n": 128,
+   "C_stab_meanD": 2.1774843749999997,
+   "C_adapt_meanD": 8.6163046875,
+   "C_adapt_ever": 0.9765625,
+   "C_t_D0_med": 1572.0,
+   "C_t_canon4_med": 1175.0,
+   "C_canon": 4.262825520833333,
+   "C_changes": 0.16406249999999997,
+   "secs": 19
+  },
+  {
+   "name": "const_half",
+   "n": 128,
+   "C_stab_meanD": 2.1774843749999997,
+   "C_adapt_meanD": 2.9267135416666665,
+   "C_adapt_ever": 1.0,
+   "C_t_D0_med": 589.5,
+   "C_t_canon4_med": 150.0,
+   "C_canon": 4.033072916666667,
+   "C_changes": 0.16666666666666663,
+   "secs": 24
+  },
+  {
+   "name": "reflexive",
+   "n": 128,
+   "C_stab_meanD": 2.206864583333333,
+   "C_adapt_meanD": 2.5609869791666666,
+   "C_adapt_ever": 1.0,
+   "C_t_D0_med": 485.5,
+   "C_t_canon4_med": 75.5,
+   "C_canon": 4.016397135416666,
+   "C_changes": 0.16666666666666663,
+   "secs": 30
+  },
+  {
+   "name": "comm_W50_r4",
+   "n": 128,
+   "C_stab_meanD": 3.0690937500000004,
+   "C_adapt_meanD": 3.9305781250000003,
+   "C_adapt_ever": 1.0,
+   "C_t_D0_med": 736.5,
+   "C_t_canon4_med": 103.0,
+   "C_canon": 4.067833333333334,
+   "C_changes": 2.454427083333333,
+   "secs": 36
+  },
+  {
+   "name": "comm_W200_r16",
+   "n": 128,
+   "C_stab_meanD": 2.210760416666666,
+   "C_adapt_meanD": 12.441085937499999,
+   "C_adapt_ever": 0.8671875,
+   "C_t_D0_med": 2071.0,
+   "C_t_canon4_med": 1404.0,
+   "C_canon": 4.419268229166667,
+   "C_changes": 0.58203125,
+   "secs": 42
+  },
+  {
+   "name": "comm_W800_r64",
+   "n": 128,
+   "C_stab_meanD": 2.250046875,
+   "C_adapt_meanD": 25.476710937500002,
+   "C_adapt_ever": 0.0703125,
+   "C_t_D0_med": 2658.0,
+   "C_t_canon4_med": 2263.0,
+   "C_canon": 4.965526041666667,
+   "C_changes": 0.04427083333333333,
+   "secs": 48
+  }
+ ]
+}

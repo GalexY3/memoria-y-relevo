@@ -44,7 +44,9 @@ y en el dilema el reparto equilibrado se mantiene si el premio privado es menor 
 ## Resultados
 
 Todas las fases principales están preregistradas, con huellas SHA-256 del código fijadas antes de
-ejecutar. En total, 36 de 40 hipótesis confirmadas; las cuatro refutadas se describen abajo.
+ejecutar. En total, 44 de 48 hipótesis confirmadas; las cuatro refutadas se describen abajo. Una
+reimplementación ciega a partir de una especificación escrita reproduce los resultados principales
+(`replicacion_ciega/`).
 
 **1. Aprendizaje (exploratorio).** Agentes Q independientes no resuelven la tarea con ninguna
 señal. Con ensayo y reversión, la señal D llega a 4×25 en el 98–100% de las comunidades, la
@@ -136,6 +138,43 @@ señal; si además se revisa observando al sistema, este puede cambiar de estruc
 una administración externa. El umbral de reconocimiento funciona como una cristalización colectiva:
 el tamaño a partir del cual una categoría se vuelve reconocible para el sistema.
 
+**8. El canon vivo: la autodescripción escrita por el propio sistema (`PREREG_C13_CANON_VIVO.md`, 8 de 8;
+512 comunidades por condición).** En el punto 7 el canon lo reescribía un observador externo. Aquí lo
+escriben los agentes, de dos maneras:
+- **Por alivio:** alguien propone su categoría y se acepta si reduce el malestar compartido.
+- **Por repetición:** es canónico lo que se ha citado al menos r veces en las últimas W citas, una
+  memoria social con olvido.
+
+Las proposiciones están demostradas en [`TEOREMA_C13.md`](TEOREMA_C13.md).
+
+![Umbral, memoria, voz y tiempos de reconocimiento](C13_RESULTS/c13_figura.png)
+
+- **El alivio fija el umbral en exactamente la mitad del tamaño de grupo, T/2.** Nadie lo elige: sale
+  del propio malestar, y quién proponga no cambia qué se acepta.
+  - **Reconoce tarde lo nuevo:** cuando el entorno pide un quinto grupo, la comunidad falla en el 29%
+    de los casos y nombra la categoría nueva 3,6 veces más tarde que con θ = 8.
+  - **Olvida pronto lo viejo:** cuando el entorno pide disolver un grupo, deja de nombrarlo en 77
+    turnos, frente a 1050 con θ = 8.
+  - **Da por perdidas las categorías heridas:** tras un relevo del 45% se recupera el 85% de las
+    comunidades, frente al 100%.
+- **Ningún umbral fijo sirve para las dos cosas.** El mejor para crear un grupo es θ ≈ 6 (un tercio
+  del tamaño) y el mejor para disolverlo, θ ≈ 13 (la mitad). Una regla estable que solo mire el
+  tamaño actual no puede ser rápida en ambos sentidos: para no oscilar tiene que exigir más para
+  entrar que para salir.
+- **La memoria social tiene un óptimo interior.** Con W ≈ 50–100 citas la comunidad se adapta en
+  ambos sentidos. Con W = 800 casi nunca se adapta; con W = 25 el canon parpadea.
+- **La voz de los recién llegados importa en el canon por repetición y no en el de alivio.** Si
+  hablan una de cada cinco veces o más, sus categorías de un solo miembro entran en el canon y
+  desestabilizan la institución.
+- **Exploratorio:** la ventaja del canon por repetición viene sobre todo de revisarse a menudo y del
+  ruido de muestreo, no de la memoria. Un canon que se describe con una muestra pequeña en cada turno
+  funciona mejor en ambos sentidos que una descripción exacta.
+
+Lectura: una autodescripción que se corrige para aliviarse va por detrás de la estructura cuando hay
+que crear y por delante cuando hay que olvidar. Es un mecanismo para la tesis de Luhmann de que la
+semántica sigue a la estructura con retraso. La autodescripción ruidosa y frecuente (como la jerga que
+circula) es rápida, pero la pueden capturar las oleadas de recién llegados.
+
 ## Lectura sociológica (para discutir)
 
 La entrada con colores de la comunidad se parece a la socialización serial de Van Maanen y Schein
@@ -156,7 +195,11 @@ organizativo y rotación; Zoethout, Jager y Molleman (2010) sobre recién llegad
 autoorganizada de tareas; Kitts y Trowbridge (2007); modelos de juego de nombres con reemplazo de
 población (Colaiori et al., 2015); March (1991). No hemos encontrado trabajos que distingan una
 señal que conoce tamaños de una que conoce el número de grupos, ni que prevean la recuperación con
-la supervivencia del vocabulario, pero la búsqueda no ha sido exhaustiva.
+la supervivencia del vocabulario, pero la búsqueda no ha sido exhaustiva. Para el canon vivo, lo más
+cercano son March, Schulz y Zhou (2000) sobre la dinámica de las reglas escritas; Colyvas y Maroulis
+(2015) sobre cómo una práctica desviada se vuelve regla desde abajo; Centola et al. (2018) sobre
+masas críticas; y Esposito sobre el olvido social. No hemos encontrado modelos que deriven el umbral
+de reconocimiento del alivio ni el compromiso entre reconocer y olvidar.
 
 ## Reproducir
 
@@ -177,9 +220,15 @@ python c10b_collapse.py          # tasa de desviación (≈15 min)
 python c10_figure.py
 python c12_confirm.py            # autodescripción y umbral de reconocimiento (≈10 min)
 python c12_figure.py
+python c13_confirm.py AC          # canon vivo, homeostasis y disolución (≈14 min)
+python c13_confirm.py B           # canon vivo, creación y dosis de voz (≈12 min)
+python c13_verdicts.py
+python c13_figure.py
+python c13x_explore.py            # exploratorio: frecuencia, ruido y memoria
+python c13x_theta_u1.py
 ```
 
 Los archivos `FREEZE_*.txt` guardan las huellas SHA-256 del código y de los preregistros fijadas
 antes de ejecutar los análisis principales (`sha256sum -c FREEZE_C09C.txt`). En `FREEZE_C09.txt`,
-`FREEZE_C10.txt` y `FREEZE_C12.txt`, la ruta `../claude_cycle08/c08_sim.py` corresponde al
+`FREEZE_C10.txt`, `FREEZE_C12.txt` y `FREEZE_C13.txt`, la ruta `../claude_cycle08/c08_sim.py` corresponde al
 `c08_sim.py` de esta carpeta (misma huella).
