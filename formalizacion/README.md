@@ -44,7 +44,7 @@ y en el dilema el reparto equilibrado se mantiene si el premio privado es menor 
 ## Resultados
 
 Todas las fases principales están preregistradas, con huellas SHA-256 del código fijadas antes de
-ejecutar. En total, 49 de 53 hipótesis confirmadas; las cuatro refutadas se describen abajo. Una
+ejecutar. En total, 54 de 58 hipótesis confirmadas; las cuatro refutadas se describen abajo. Una
 reimplementación ciega a partir de una especificación escrita reproduce los resultados principales
 (`replicacion_ciega/`).
 
@@ -181,6 +181,17 @@ Hay, por tanto, una dosis óptima de imprecisión. La memoria de lo dicho no añ
 no se resiente y basta con revisar el canon cada 20 turnos. Es el principio de «orden desde el ruido»
 de von Foerster aplicado a la forma en que una comunidad se observa a sí misma.
 
+**10. El filo de la divisoria (`PREREG_C13C_FILO_DE_LA_DIVISORIA.md`, 5 de 5).** Cuando el entorno
+pide fusionar categorías, el alivio funciona bien si la fusión es suave: al pasar de 5 a 4 grupos es
+el mejor canon. Si la fusión es radical, los grupos antiguos quedan en la mitad del tamaño nuevo o por
+debajo, y el alivio los olvida casi todos a la vez:
+- de 4 a 2 grupos, el error es de 14,7;
+- de 5 a 2, el canon se vacía y solo el 59% de las comunidades se adapta.
+
+Un umbral fijo de un tercio del tamaño que se pide funciona en las cinco fusiones probadas. Lectura:
+una autodescripción interesada lleva bien las reorganizaciones suaves y entra en crisis de sentido
+en las radicales.
+
 Lectura: una autodescripción que se corrige para aliviarse va por detrás de la estructura cuando hay
 que crear y por delante cuando hay que olvidar. Es un mecanismo para la tesis de Luhmann de que la
 semántica sigue a la estructura con retraso. La autodescripción ruidosa y frecuente (como la jerga que
@@ -238,11 +249,13 @@ python c13_figure.py
 python c13_theory.py              # enumeración exhaustiva del paisaje del alivio
 python c13b_confirm.py B; python c13b_confirm.py C; python c13b_confirm.py A   # orden desde el ruido (≈30 min)
 python c13b_verdicts.py
+python c13b_uncertainty.py        # intervalos bootstrap emparejados de C13b
+python c13c_confirm.py; python c13c_verdicts.py   # el filo de la divisoria (≈25 min)
 python c13x_explore.py            # exploratorio: frecuencia, ruido y memoria
 python c13x_theta_u1.py
 ```
 
 Los archivos `FREEZE_*.txt` guardan las huellas SHA-256 del código y de los preregistros fijadas
 antes de ejecutar los análisis principales (`sha256sum -c FREEZE_C09C.txt`). En `FREEZE_C09.txt`,
-`FREEZE_C10.txt`, `FREEZE_C12.txt`, `FREEZE_C13.txt` y `FREEZE_C13B.txt`, la ruta `../claude_cycle08/c08_sim.py` corresponde al
+`FREEZE_C10.txt`, `FREEZE_C12.txt`, `FREEZE_C13.txt`, `FREEZE_C13B.txt` y `FREEZE_C13C.txt`, la ruta `../claude_cycle08/c08_sim.py` corresponde al
 `c08_sim.py` de esta carpeta (misma huella).

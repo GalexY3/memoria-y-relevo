@@ -1,0 +1,286 @@
+{
+ "verdicts": {
+  "W1": "CONFIRMADA",
+  "W2": "CONFIRMADA",
+  "W3": "CONFIRMADA",
+  "W4": "CONFIRMADA",
+  "W5": "CONFIRMADA"
+ },
+ "table": [
+  {
+   "change": "5->4",
+   "ratio": 0.8,
+   "name": "relief",
+   "theta": null,
+   "adapt_meanD": 2.5507897135416666,
+   "adapt_ever": 1.0,
+   "adapt_canon_size": 4.017085286458333,
+   "share_canon_below_k": 0.0,
+   "t_canon_k": 77.0
+  },
+  {
+   "change": "5->4",
+   "ratio": 0.8,
+   "name": "theta8_abs",
+   "theta": 8,
+   "adapt_meanD": 5.4757467447916675,
+   "adapt_ever": 1.0,
+   "adapt_canon_size": 4.1359638671875,
+   "share_canon_below_k": 0.0,
+   "t_canon_k": 608.5
+  },
+  {
+   "change": "5->4",
+   "ratio": 0.8,
+   "name": "theta_T/4",
+   "theta": 6,
+   "adapt_meanD": 11.267260416666668,
+   "adapt_ever": 0.9140625,
+   "adapt_canon_size": 4.371737630208333,
+   "share_canon_below_k": 0.0,
+   "t_canon_k": 1527.0
+  },
+  {
+   "change": "5->4",
+   "ratio": 0.8,
+   "name": "theta_T/3",
+   "theta": 8,
+   "adapt_meanD": 5.4757467447916675,
+   "adapt_ever": 1.0,
+   "adapt_canon_size": 4.1359638671875,
+   "share_canon_below_k": 0.0,
+   "t_canon_k": 608.5
+  },
+  {
+   "change": "5->4",
+   "ratio": 0.8,
+   "name": "theta_T/2+1",
+   "theta": 13,
+   "adapt_meanD": 2.5078346354166667,
+   "adapt_ever": 0.998046875,
+   "adapt_canon_size": 4.01171875,
+   "share_canon_below_k": 0.001953125,
+   "t_canon_k": 62.0
+  },
+  {
+   "change": "4->2",
+   "ratio": 0.5,
+   "name": "relief",
+   "theta": null,
+   "adapt_meanD": 14.73596484375,
+   "adapt_ever": 0.90234375,
+   "adapt_canon_size": 1.8290927734375,
+   "share_canon_below_k": 0.169921875,
+   "t_canon_k": 5.0
+  },
+  {
+   "change": "4->2",
+   "ratio": 0.5,
+   "name": "theta8_abs",
+   "theta": 8,
+   "adapt_meanD": 18.343936848958332,
+   "adapt_ever": 0.935546875,
+   "adapt_canon_size": 2.423841796875,
+   "share_canon_below_k": 0.0,
+   "t_canon_k": 1656.5
+  },
+  {
+   "change": "4->2",
+   "ratio": 0.5,
+   "name": "theta_T/4",
+   "theta": 12,
+   "adapt_meanD": 9.797451822916667,
+   "adapt_ever": 1.0,
+   "adapt_canon_size": 2.2014690755208335,
+   "share_canon_below_k": 0.0,
+   "t_canon_k": 764.5
+  },
+  {
+   "change": "4->2",
+   "ratio": 0.5,
+   "name": "theta_T/3",
+   "theta": 17,
+   "adapt_meanD": 4.730747395833333,
+   "adapt_ever": 1.0,
+   "adapt_canon_size": 2.074536458333333,
+   "share_canon_below_k": 0.0,
+   "t_canon_k": 268.5
+  },
+  {
+   "change": "4->2",
+   "ratio": 0.5,
+   "name": "theta_T/2+1",
+   "theta": 26,
+   "adapt_meanD": 48.26504036458333,
+   "adapt_ever": 0.63671875,
+   "adapt_canon_size": 1.3730791015625001,
+   "share_canon_below_k": 0.599609375,
+   "t_canon_k": 2295.0
+  },
+  {
+   "change": "10->5",
+   "ratio": 0.5,
+   "name": "relief",
+   "theta": null,
+   "adapt_meanD": 11.305075163398692,
+   "adapt_ever": 0.8549019607843137,
+   "adapt_canon_size": 4.7186192810457515,
+   "share_canon_below_k": 0.25098039215686274,
+   "t_canon_k": 20.0
+  },
+  {
+   "change": "10->5",
+   "ratio": 0.5,
+   "name": "theta8_abs",
+   "theta": 8,
+   "adapt_meanD": 4.265714379084968,
+   "adapt_ever": 1.0,
+   "adapt_canon_size": 5.0677545751633994,
+   "share_canon_below_k": 0.0,
+   "t_canon_k": 117.0
+  },
+  {
+   "change": "10->5",
+   "ratio": 0.5,
+   "name": "theta_T/4",
+   "theta": 5,
+   "adapt_meanD": 14.19606339869281,
+   "adapt_ever": 0.7529411764705882,
+   "adapt_canon_size": 5.590875163398692,
+   "share_canon_below_k": 0.0,
+   "t_canon_k": 2035.0
+  },
+  {
+   "change": "10->5",
+   "ratio": 0.5,
+   "name": "theta_T/3",
+   "theta": 7,
+   "adapt_meanD": 6.143775163398693,
+   "adapt_ever": 1.0,
+   "adapt_canon_size": 5.167275163398694,
+   "share_canon_below_k": 0.0,
+   "t_canon_k": 449.5
+  },
+  {
+   "change": "10->5",
+   "ratio": 0.5,
+   "name": "theta_T/2+1",
+   "theta": 11,
+   "adapt_meanD": 13.280990196078433,
+   "adapt_ever": 0.8568627450980392,
+   "adapt_canon_size": 4.618186274509803,
+   "share_canon_below_k": 0.3215686274509804,
+   "t_canon_k": 633.0
+  },
+  {
+   "change": "5->2",
+   "ratio": 0.4,
+   "name": "relief",
+   "theta": null,
+   "adapt_meanD": 48.803181640625,
+   "adapt_ever": 0.591796875,
+   "adapt_canon_size": 1.3663089192708333,
+   "share_canon_below_k": 0.611328125,
+   "t_canon_k": 2.0
+  },
+  {
+   "change": "5->2",
+   "ratio": 0.4,
+   "name": "theta8_abs",
+   "theta": 8,
+   "adapt_meanD": 19.77845703125,
+   "adapt_ever": 0.935546875,
+   "adapt_canon_size": 2.471453776041667,
+   "share_canon_below_k": 0.0,
+   "t_canon_k": 1683.0
+  },
+  {
+   "change": "5->2",
+   "ratio": 0.4,
+   "name": "theta_T/4",
+   "theta": 12,
+   "adapt_meanD": 10.209141276041668,
+   "adapt_ever": 0.998046875,
+   "adapt_canon_size": 2.2132379557291664,
+   "share_canon_below_k": 0.0,
+   "t_canon_k": 752.0
+  },
+  {
+   "change": "5->2",
+   "ratio": 0.4,
+   "name": "theta_T/3",
+   "theta": 17,
+   "adapt_meanD": 4.488775390625,
+   "adapt_ever": 1.0,
+   "adapt_canon_size": 2.0632060546875,
+   "share_canon_below_k": 0.0,
+   "t_canon_k": 236.5
+  },
+  {
+   "change": "5->2",
+   "ratio": 0.4,
+   "name": "theta_T/2+1",
+   "theta": 26,
+   "adapt_meanD": 49.096063802083336,
+   "adapt_ever": 0.626953125,
+   "adapt_canon_size": 1.3630618489583335,
+   "share_canon_below_k": 0.60546875,
+   "t_canon_k": 2188.0
+  },
+  {
+   "change": "10->4",
+   "ratio": 0.4,
+   "name": "relief",
+   "theta": null,
+   "adapt_meanD": 16.393971298108283,
+   "adapt_ever": 0.8904109589041096,
+   "adapt_canon_size": 3.610000652315721,
+   "share_canon_below_k": 0.30919765166340507,
+   "t_canon_k": 5.0
+  },
+  {
+   "change": "10->4",
+   "ratio": 0.4,
+   "name": "theta8_abs",
+   "theta": 8,
+   "adapt_meanD": 6.076793215916504,
+   "adapt_ever": 1.0,
+   "adapt_canon_size": 4.1509895629484665,
+   "share_canon_below_k": 0.0,
+   "t_canon_k": 424.0
+  },
+  {
+   "change": "10->4",
+   "ratio": 0.4,
+   "name": "theta_T/4",
+   "theta": 6,
+   "adapt_meanD": 12.959538160469668,
+   "adapt_ever": 0.9158512720156555,
+   "adapt_canon_size": 4.456210697977821,
+   "share_canon_below_k": 0.0,
+   "t_canon_k": 1685.0
+  },
+  {
+   "change": "10->4",
+   "ratio": 0.4,
+   "name": "theta_T/3",
+   "theta": 8,
+   "adapt_meanD": 6.076793215916504,
+   "adapt_ever": 1.0,
+   "adapt_canon_size": 4.1509895629484665,
+   "share_canon_below_k": 0.0,
+   "t_canon_k": 424.0
+  },
+  {
+   "change": "10->4",
+   "ratio": 0.4,
+   "name": "theta_T/2+1",
+   "theta": 13,
+   "adapt_meanD": 13.559470971950423,
+   "adapt_ever": 0.9452054794520548,
+   "adapt_canon_size": 3.6853375733855187,
+   "share_canon_below_k": 0.23679060665362034,
+   "t_canon_k": 945.5
+  }
+ ]
+}
