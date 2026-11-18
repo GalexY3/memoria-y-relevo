@@ -44,7 +44,7 @@ y en el dilema el reparto equilibrado se mantiene si el premio privado es menor 
 ## Resultados
 
 Todas las fases principales están preregistradas, con huellas SHA-256 del código fijadas antes de
-ejecutar. En total, 44 de 48 hipótesis confirmadas; las cuatro refutadas se describen abajo. Una
+ejecutar. En total, 49 de 53 hipótesis confirmadas; las cuatro refutadas se describen abajo. Una
 reimplementación ciega a partir de una especificación escrita reproduce los resultados principales
 (`replicacion_ciega/`).
 
@@ -166,9 +166,20 @@ Las proposiciones están demostradas en [`TEOREMA_C13.md`](TEOREMA_C13.md).
 - **La voz de los recién llegados importa en el canon por repetición y no en el de alivio.** Si
   hablan una de cada cinco veces o más, sus categorías de un solo miembro entran en el canon y
   desestabilizan la institución.
-- **Exploratorio:** la ventaja del canon por repetición viene sobre todo de revisarse a menudo y del
-  ruido de muestreo, no de la memoria. Un canon que se describe con una muestra pequeña en cada turno
-  funciona mejor en ambos sentidos que una descripción exacta.
+- **El paisaje del alivio no tiene trampas, pero sí muchas mesetas.** Se demuestra y se comprueba
+  enumerando todos los estados en nueve tamaños de comunidad (`c13_theory.py`). Separarse de un grupo
+  demasiado grande deja de costar, pero lo nuevo avanza por azar hasta cruzar la mitad.
+
+**9. Orden desde el ruido (`PREREG_C13B_ORDEN_DESDE_EL_RUIDO.md`, 5 de 5).** Si el canon se rehace en
+cada turno con lo que se ve en una muestra de 50 personas, y no contando a todas, la comunidad crea y
+disuelve categorías mejor que con cualquier descripción exacta:
+- con la muestra de 50, la suma de errores es 7,7;
+- con el mejor umbral exacto es 10,0;
+- con una muestra de 12, el canon cambia sin parar y la suma sube a 26,0.
+
+Hay, por tanto, una dosis óptima de imprecisión. La memoria de lo dicho no añade nada, la estabilidad
+no se resiente y basta con revisar el canon cada 20 turnos. Es el principio de «orden desde el ruido»
+de von Foerster aplicado a la forma en que una comunidad se observa a sí misma.
 
 Lectura: una autodescripción que se corrige para aliviarse va por detrás de la estructura cuando hay
 que crear y por delante cuando hay que olvidar. Es un mecanismo para la tesis de Luhmann de que la
@@ -224,11 +235,14 @@ python c13_confirm.py AC          # canon vivo, homeostasis y disolución (≈14
 python c13_confirm.py B           # canon vivo, creación y dosis de voz (≈12 min)
 python c13_verdicts.py
 python c13_figure.py
+python c13_theory.py              # enumeración exhaustiva del paisaje del alivio
+python c13b_confirm.py B; python c13b_confirm.py C; python c13b_confirm.py A   # orden desde el ruido (≈30 min)
+python c13b_verdicts.py
 python c13x_explore.py            # exploratorio: frecuencia, ruido y memoria
 python c13x_theta_u1.py
 ```
 
 Los archivos `FREEZE_*.txt` guardan las huellas SHA-256 del código y de los preregistros fijadas
 antes de ejecutar los análisis principales (`sha256sum -c FREEZE_C09C.txt`). En `FREEZE_C09.txt`,
-`FREEZE_C10.txt`, `FREEZE_C12.txt` y `FREEZE_C13.txt`, la ruta `../claude_cycle08/c08_sim.py` corresponde al
+`FREEZE_C10.txt`, `FREEZE_C12.txt`, `FREEZE_C13.txt` y `FREEZE_C13B.txt`, la ruta `../claude_cycle08/c08_sim.py` corresponde al
 `c08_sim.py` de esta carpeta (misma huella).

@@ -92,6 +92,36 @@ convierte el paisaje en uno de dos cuencas por categoría. De ahí salen tres co
 - la obsoleta queda condenada en cuanto cruza T/2 hacia abajo, de modo que olvida pronto;
 - una categoría herida por debajo de la mitad tras un choque queda en la cuenca de extinción (H7).
 
+## Proposición 5 (el paisaje del alivio no tiene trampas, pero está lleno de mesetas)
+Llamamos **trampa** a un estado con F* > 0 en el que todo movimiento de un agente (de un color a otro,
+existente o vacío) aumenta F* estrictamente. Si k ≥ 2 y queda algún color libre, el paisaje del
+alivio F* = Σ g(s_c) no tiene trampas.
+
+*Demostración.* Para tamaños enteros, cada término de un movimiento cambia g en −1, 0 o +1:
+- r_a = g(s_a − 1) − g(s_a) al sacar un agente de a;
+- a_b = g(s_b + 1) − g(s_b) al añadirlo a b.
+
+Supongamos una trampa: r_a + a_b ≥ 1 para todo par a ≠ b. Se llega a una contradicción en dos pasos.
+1. **Ir a un color vacío da a_∅ = g(1) − g(0) = 1.** Por tanto r_a ≥ 0 para todo grupo, y cada grupo
+   está en la parte no creciente de la tienda: T/2 < s_a ≤ T.
+2. **Para dos grupos a y b, si s_b < T entonces a_b = −1**, y haría falta r_a ≥ 2, lo cual es
+   imposible. Luego todo grupo tiene s = T, es decir F* = 0. Con un solo grupo, s = N > T da r < 0. ∎
+
+**Comprobación exhaustiva.** `c13_theory.py` enumera todas las particiones para (N, k) ∈ {(12,3),
+(16,4), (20,4), (20,5), (24,4), (30,5), (32,4), (40,4), (40,5)}, con resultados en
+`C13_RESULTS/c13_theory.json`:
+- **Alivio:** ninguna trampa en ningún tamaño.
+- **Señal original C:** exactamente una trampa en cada tamaño, todos del mismo color, porque separarse cuesta T − 2 (C09).
+- **Canon fijo con θ = T/3:** a veces una trampa, por ejemplo 16 grupos de 2 con N = 32 (fragmentación anómica: con todos los colores ocupados y ninguna categoría reconocida, ningún movimiento sale de ahí).
+
+El alivio tiene, en cambio, de 2 a 4 veces más mesetas que C; por ejemplo, 4563 frente a 2270 con N = 40 y k = 4.
+
+**Lectura.** Escribir el canon por alivio elimina la trampa de la señal original: separarse de un
+grupo sobredimensionado ya no cuesta, es neutro. A cambio, multiplica las mesetas, las regiones de
+deriva neutra de la Proposición 2. Es la forma geométrica del desfase semántico: el sistema nunca queda
+bloqueado, pero lo nuevo solo avanza por azar hasta cruzar la divisoria. Desde la teoría de juegos, la
+dinámica es un juego de potencial sin equilibrios estrictos malos, aunque con muchos equilibrios débiles.
+
 ## Lectura sociológica
 - **Alivio:** la autodescripción que el sistema corrige para sentirse mejor va por detrás de la estructura al crear. Es el desfase semántico de Luhmann. En cambio, va por delante al disolver: abandona deprisa lo que ha dejado de pesar, incluidas las categorías heridas por un choque.
 - **Repetición con memoria corta:** puede anticipar la estructura (preadaptación semántica). Es más vulnerable a quién tiene la palabra.

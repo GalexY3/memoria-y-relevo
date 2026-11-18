@@ -1,0 +1,129 @@
+{
+ "status": "PRIMARY",
+ "part": "C",
+ "M": 512,
+ "rows": [
+  {
+   "name": "sampled_n12_U1",
+   "n": 512,
+   "stab_meanD": 14.87463671875,
+   "stab_changes": 1559.19921875,
+   "adapt_meanD": 9.053828776041666,
+   "adapt_ever": 0.99609375,
+   "secs": 32
+  },
+  {
+   "name": "sampled_n25_U1",
+   "n": 512,
+   "stab_meanD": 3.8475,
+   "stab_changes": 193.64713541666669,
+   "adapt_meanD": 3.9197265624999997,
+   "adapt_ever": 1.0,
+   "secs": 57
+  },
+  {
+   "name": "sampled_n50_U1",
+   "n": 512,
+   "stab_meanD": 2.2255481770833336,
+   "stab_changes": 4.862630208333334,
+   "adapt_meanD": 4.059774739583333,
+   "adapt_ever": 1.0,
+   "secs": 83
+  },
+  {
+   "name": "sampled_n100_U1",
+   "n": 512,
+   "stab_meanD": 2.2085260416666666,
+   "stab_changes": 0.0,
+   "adapt_meanD": 5.937012369791667,
+   "adapt_ever": 0.998046875,
+   "secs": 112
+  },
+  {
+   "name": "sampled_n50_U5",
+   "n": 512,
+   "stab_meanD": 2.2677903645833335,
+   "stab_changes": 1.0221354166666665,
+   "adapt_meanD": 3.899451822916667,
+   "adapt_ever": 1.0,
+   "secs": 133
+  },
+  {
+   "name": "sampled_n50_U20",
+   "n": 512,
+   "stab_meanD": 2.2885846354166666,
+   "stab_changes": 0.23697916666666666,
+   "adapt_meanD": 4.346479166666667,
+   "adapt_ever": 1.0,
+   "secs": 154
+  },
+  {
+   "name": "const_t6_U1",
+   "n": 512,
+   "stab_meanD": 2.1943528645833332,
+   "stab_changes": 0.0,
+   "adapt_meanD": 11.11839453125,
+   "adapt_ever": 0.919921875,
+   "secs": 174
+  },
+  {
+   "name": "const_t7_U1",
+   "n": 512,
+   "stab_meanD": 2.1943528645833332,
+   "stab_changes": 0.0,
+   "adapt_meanD": 7.859975911458333,
+   "adapt_ever": 0.986328125,
+   "secs": 194
+  },
+  {
+   "name": "const_t8_U1",
+   "n": 512,
+   "stab_meanD": 2.1943528645833332,
+   "stab_changes": 0.0,
+   "adapt_meanD": 5.678745442708333,
+   "adapt_ever": 1.0,
+   "secs": 215
+  },
+  {
+   "name": "const_t9_U1",
+   "n": 512,
+   "stab_meanD": 2.1943528645833332,
+   "stab_changes": 0.0,
+   "adapt_meanD": 4.2975559895833335,
+   "adapt_ever": 1.0,
+   "secs": 236
+  },
+  {
+   "name": "const_t10_U1",
+   "n": 512,
+   "stab_meanD": 2.1943528645833332,
+   "stab_changes": 0.0,
+   "adapt_meanD": 3.5533417968750003,
+   "adapt_ever": 1.0,
+   "secs": 256
+  },
+  {
+   "name": "const_t13_U1",
+   "n": 512,
+   "stab_meanD": 2.1943528645833332,
+   "stab_changes": 0.0,
+   "adapt_meanD": 2.460859375,
+   "adapt_ever": 1.0,
+   "secs": 276
+  },
+  {
+   "name": "comm_W50",
+   "n": 512,
+   "stab_meanD": 3.2751197916666666,
+   "stab_changes": 9.802734375,
+   "adapt_meanD": 3.9353359374999997,
+   "adapt_ever": 1.0,
+   "secs": 296
+  }
+ ],
+ "seconds": 296,
+ "sha256": {
+  "c13x_sim.py": "b9faf5328a3c161f3909fb86562675c666a824b5def644a8888b1c3ea20cd645",
+  "c13b_confirm.py": "1cddfa25bb29775d03c0f7f931c5a7550d3bc7c0d224ce09c932a43cb01a08a2"
+ }
+}

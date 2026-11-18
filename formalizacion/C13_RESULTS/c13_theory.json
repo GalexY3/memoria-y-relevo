@@ -1,0 +1,554 @@
+{
+ "N12_k3": {
+  "relief": {
+   "counts": {
+    "global_": 1,
+    "descent": 56,
+    "plateau": 20,
+    "trap": 0
+   },
+   "example": {
+    "plateau": [
+     12
+    ]
+   }
+  },
+  "C": {
+   "counts": {
+    "global_": 1,
+    "descent": 66,
+    "plateau": 9,
+    "trap": 1
+   },
+   "example": {
+    "trap": [
+     12
+    ],
+    "plateau": [
+     8,
+     4
+    ]
+   }
+  },
+  "theta_T/3": {
+   "counts": {
+    "global_": 1,
+    "descent": 66,
+    "plateau": 9,
+    "trap": 1
+   },
+   "example": {
+    "trap": [
+     12
+    ],
+    "plateau": [
+     8,
+     4
+    ]
+   }
+  },
+  "theta_T/2+1": {
+   "counts": {
+    "global_": 1,
+    "descent": 56,
+    "plateau": 20,
+    "trap": 0
+   },
+   "example": {
+    "plateau": [
+     12
+    ]
+   }
+  }
+ },
+ "N16_k4": {
+  "relief": {
+   "counts": {
+    "global_": 1,
+    "descent": 179,
+    "plateau": 51,
+    "trap": 0
+   },
+   "example": {
+    "plateau": [
+     16
+    ]
+   }
+  },
+  "C": {
+   "counts": {
+    "global_": 1,
+    "descent": 211,
+    "plateau": 18,
+    "trap": 1
+   },
+   "example": {
+    "trap": [
+     16
+    ],
+    "plateau": [
+     12,
+     4
+    ]
+   }
+  },
+  "theta_T/3": {
+   "counts": {
+    "global_": 1,
+    "descent": 211,
+    "plateau": 18,
+    "trap": 1
+   },
+   "example": {
+    "trap": [
+     16
+    ],
+    "plateau": [
+     12,
+     4
+    ]
+   }
+  },
+  "theta_T/2+1": {
+   "counts": {
+    "global_": 1,
+    "descent": 179,
+    "plateau": 51,
+    "trap": 0
+   },
+   "example": {
+    "plateau": [
+     16
+    ]
+   }
+  }
+ },
+ "N20_k4": {
+  "relief": {
+   "counts": {
+    "global_": 1,
+    "descent": 550,
+    "plateau": 69,
+    "trap": 0
+   },
+   "example": {
+    "plateau": [
+     20
+    ]
+   }
+  },
+  "C": {
+   "counts": {
+    "global_": 1,
+    "descent": 580,
+    "plateau": 38,
+    "trap": 1
+   },
+   "example": {
+    "trap": [
+     20
+    ],
+    "plateau": [
+     15,
+     5
+    ]
+   }
+  },
+  "theta_T/3": {
+   "counts": {
+    "global_": 1,
+    "descent": 546,
+    "plateau": 73,
+    "trap": 0
+   },
+   "example": {
+    "plateau": [
+     20
+    ]
+   }
+  },
+  "theta_T/2+1": {
+   "counts": {
+    "global_": 1,
+    "descent": 550,
+    "plateau": 69,
+    "trap": 0
+   },
+   "example": {
+    "plateau": [
+     20
+    ]
+   }
+  }
+ },
+ "N20_k5": {
+  "relief": {
+   "counts": {
+    "global_": 1,
+    "descent": 500,
+    "plateau": 119,
+    "trap": 0
+   },
+   "example": {
+    "plateau": [
+     20
+    ]
+   }
+  },
+  "C": {
+   "counts": {
+    "global_": 1,
+    "descent": 583,
+    "plateau": 35,
+    "trap": 1
+   },
+   "example": {
+    "trap": [
+     20
+    ],
+    "plateau": [
+     16,
+     4
+    ]
+   }
+  },
+  "theta_T/3": {
+   "counts": {
+    "global_": 1,
+    "descent": 583,
+    "plateau": 35,
+    "trap": 1
+   },
+   "example": {
+    "trap": [
+     20
+    ],
+    "plateau": [
+     16,
+     4
+    ]
+   }
+  },
+  "theta_T/2+1": {
+   "counts": {
+    "global_": 1,
+    "descent": 500,
+    "plateau": 119,
+    "trap": 0
+   },
+   "example": {
+    "plateau": [
+     20
+    ]
+   }
+  }
+ },
+ "N24_k4": {
+  "relief": {
+   "counts": {
+    "global_": 1,
+    "descent": 1247,
+    "plateau": 282,
+    "trap": 0
+   },
+   "example": {
+    "plateau": [
+     24
+    ]
+   }
+  },
+  "C": {
+   "counts": {
+    "global_": 1,
+    "descent": 1437,
+    "plateau": 91,
+    "trap": 1
+   },
+   "example": {
+    "trap": [
+     24
+    ],
+    "plateau": [
+     18,
+     6
+    ]
+   }
+  },
+  "theta_T/3": {
+   "counts": {
+    "global_": 1,
+    "descent": 1424,
+    "plateau": 105,
+    "trap": 0
+   },
+   "example": {
+    "plateau": [
+     24
+    ]
+   }
+  },
+  "theta_T/2+1": {
+   "counts": {
+    "global_": 1,
+    "descent": 1247,
+    "plateau": 282,
+    "trap": 0
+   },
+   "example": {
+    "plateau": [
+     24
+    ]
+   }
+  }
+ },
+ "N30_k5": {
+  "relief": {
+   "counts": {
+    "global_": 1,
+    "descent": 4433,
+    "plateau": 797,
+    "trap": 0
+   },
+   "example": {
+    "plateau": [
+     30
+    ]
+   }
+  },
+  "C": {
+   "counts": {
+    "global_": 1,
+    "descent": 5043,
+    "plateau": 186,
+    "trap": 1
+   },
+   "example": {
+    "trap": [
+     30
+    ],
+    "plateau": [
+     24,
+     6
+    ]
+   }
+  },
+  "theta_T/3": {
+   "counts": {
+    "global_": 1,
+    "descent": 4963,
+    "plateau": 267,
+    "trap": 0
+   },
+   "example": {
+    "plateau": [
+     30
+    ]
+   }
+  },
+  "theta_T/2+1": {
+   "counts": {
+    "global_": 1,
+    "descent": 4433,
+    "plateau": 797,
+    "trap": 0
+   },
+   "example": {
+    "plateau": [
+     30
+    ]
+   }
+  }
+ },
+ "N32_k4": {
+  "relief": {
+   "counts": {
+    "global_": 1,
+    "descent": 6439,
+    "plateau": 1225,
+    "trap": 0
+   },
+   "example": {
+    "plateau": [
+     32
+    ]
+   }
+  },
+  "C": {
+   "counts": {
+    "global_": 1,
+    "descent": 7183,
+    "plateau": 480,
+    "trap": 1
+   },
+   "example": {
+    "trap": [
+     32
+    ],
+    "plateau": [
+     24,
+     8
+    ]
+   }
+  },
+  "theta_T/3": {
+   "counts": {
+    "global_": 1,
+    "descent": 7147,
+    "plateau": 516,
+    "trap": 1
+   },
+   "example": {
+    "plateau": [
+     32
+    ],
+    "trap": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ]
+   }
+  },
+  "theta_T/2+1": {
+   "counts": {
+    "global_": 1,
+    "descent": 6439,
+    "plateau": 1225,
+    "trap": 0
+   },
+   "example": {
+    "plateau": [
+     32
+    ]
+   }
+  }
+ },
+ "N40_k4": {
+  "relief": {
+   "counts": {
+    "global_": 1,
+    "descent": 27039,
+    "plateau": 4563,
+    "trap": 0
+   },
+   "example": {
+    "plateau": [
+     40
+    ]
+   }
+  },
+  "C": {
+   "counts": {
+    "global_": 1,
+    "descent": 29331,
+    "plateau": 2270,
+    "trap": 1
+   },
+   "example": {
+    "trap": [
+     40
+    ],
+    "plateau": [
+     30,
+     10
+    ]
+   }
+  },
+  "theta_T/3": {
+   "counts": {
+    "global_": 1,
+    "descent": 30697,
+    "plateau": 905,
+    "trap": 0
+   },
+   "example": {
+    "plateau": [
+     40
+    ]
+   }
+  },
+  "theta_T/2+1": {
+   "counts": {
+    "global_": 1,
+    "descent": 27039,
+    "plateau": 4563,
+    "trap": 0
+   },
+   "example": {
+    "plateau": [
+     40
+    ]
+   }
+  }
+ },
+ "N40_k5": {
+  "relief": {
+   "counts": {
+    "global_": 1,
+    "descent": 27587,
+    "plateau": 4015,
+    "trap": 0
+   },
+   "example": {
+    "plateau": [
+     40
+    ]
+   }
+  },
+  "C": {
+   "counts": {
+    "global_": 1,
+    "descent": 30402,
+    "plateau": 1199,
+    "trap": 1
+   },
+   "example": {
+    "trap": [
+     40
+    ],
+    "plateau": [
+     32,
+     8
+    ]
+   }
+  },
+  "theta_T/3": {
+   "counts": {
+    "global_": 1,
+    "descent": 30025,
+    "plateau": 1577,
+    "trap": 0
+   },
+   "example": {
+    "plateau": [
+     40
+    ]
+   }
+  },
+  "theta_T/2+1": {
+   "counts": {
+    "global_": 1,
+    "descent": 27587,
+    "plateau": 4015,
+    "trap": 0
+   },
+   "example": {
+    "plateau": [
+     40
+    ]
+   }
+  }
+ }
+}

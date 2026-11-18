@@ -1,0 +1,116 @@
+{
+ "status": "PRIMARY",
+ "part": "A",
+ "M": 512,
+ "rows": [
+  {
+   "name": "sampled_n12_U1",
+   "n": 512,
+   "recovered": 0.98046875,
+   "meanD": 7.6092763671874994,
+   "changes": 726.47607421875,
+   "secs": 18
+  },
+  {
+   "name": "sampled_n25_U1",
+   "n": 512,
+   "recovered": 1.0,
+   "meanD": 1.8884619140625,
+   "changes": 59.76171875,
+   "secs": 29
+  },
+  {
+   "name": "sampled_n50_U1",
+   "n": 512,
+   "recovered": 1.0,
+   "meanD": 1.0431591796875,
+   "changes": 5.0419921875,
+   "secs": 40
+  },
+  {
+   "name": "sampled_n100_U1",
+   "n": 512,
+   "recovered": 1.0,
+   "meanD": 0.987224609375,
+   "changes": 0.033203125,
+   "secs": 52
+  },
+  {
+   "name": "sampled_n50_U5",
+   "n": 512,
+   "recovered": 1.0,
+   "meanD": 1.1378593750000001,
+   "changes": 1.0654296875,
+   "secs": 61
+  },
+  {
+   "name": "sampled_n50_U20",
+   "n": 512,
+   "recovered": 1.0,
+   "meanD": 1.092455078125,
+   "changes": 0.24609375,
+   "secs": 69
+  },
+  {
+   "name": "const_t6_U1",
+   "n": 512,
+   "recovered": 0.9609375,
+   "meanD": 3.5302402343749995,
+   "changes": 0.2568359375,
+   "secs": 77
+  },
+  {
+   "name": "const_t7_U1",
+   "n": 512,
+   "recovered": 0.99609375,
+   "meanD": 1.2984843750000001,
+   "changes": 0.1044921875,
+   "secs": 86
+  },
+  {
+   "name": "const_t8_U1",
+   "n": 512,
+   "recovered": 1.0,
+   "meanD": 0.9229824218750001,
+   "changes": 0.0244140625,
+   "secs": 94
+  },
+  {
+   "name": "const_t9_U1",
+   "n": 512,
+   "recovered": 1.0,
+   "meanD": 0.9028369140625001,
+   "changes": 0.0126953125,
+   "secs": 102
+  },
+  {
+   "name": "const_t10_U1",
+   "n": 512,
+   "recovered": 1.0,
+   "meanD": 0.9030849609375,
+   "changes": 0.0087890625,
+   "secs": 110
+  },
+  {
+   "name": "const_t13_U1",
+   "n": 512,
+   "recovered": 0.982421875,
+   "meanD": 2.5389150390625,
+   "changes": 0.0791015625,
+   "secs": 119
+  },
+  {
+   "name": "comm_W50",
+   "n": 512,
+   "recovered": 1.0,
+   "meanD": 1.32047265625,
+   "changes": 2.07275390625,
+   "secs": 128
+  }
+ ],
+ "seconds": 128,
+ "sha256": {
+  "c13x_sim.py": "b9faf5328a3c161f3909fb86562675c666a824b5def644a8888b1c3ea20cd645",
+  "c13b_confirm.py": "1cddfa25bb29775d03c0f7f931c5a7550d3bc7c0d224ce09c932a43cb01a08a2"
+ }
+}
