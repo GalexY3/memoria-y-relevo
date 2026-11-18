@@ -44,7 +44,7 @@ y en el dilema el reparto equilibrado se mantiene si el premio privado es menor 
 ## Resultados
 
 Todas las fases principales están preregistradas, con huellas SHA-256 del código fijadas antes de
-ejecutar. En total, 25 de 27 hipótesis confirmadas; las dos refutadas se describen abajo.
+ejecutar. En total, 31 de 35 hipótesis confirmadas; las cuatro refutadas se describen abajo.
 
 **1. Aprendizaje (exploratorio).** Agentes Q independientes no resuelven la tarea con ninguna
 señal. Con ensayo y reversión, la señal D llega a 4×25 en el 98–100% de las comunidades, la
@@ -96,6 +96,31 @@ no dejar ningún fundador, las comunidades siguen coordinadas.
 persistente de unas 20 personas en el 25,6% de las comunidades con la señal original. No lo logra
 por ventaja, sino porque unirse a su grupo no cuesta nada. Con la señal D, nunca.
 
+**6. La paradoja del gatekeeping (`PREREG_C10_PARADOJA_GATEKEEPING.md`, 4 de 5; y
+`PREREG_C10B_TASA_DE_DESVIACION.md`, 2 de 3; 512 comunidades por celda).** Rotación continua (un
+recién llegado cada τ turnos, socializado con probabilidad s) y, después de una fase estable, un
+entorno que pasa a exigir cinco grupos de 20.
+
+![Estabilidad y adaptación según la socialización y la tasa de desviación](C10_RESULTS/c10_figura.png)
+
+- Con la señal original, socializar a todos los recién llegados da una estabilidad casi perfecta y
+  hace **imposible** adaptarse: la comunidad nunca crea el quinto grupo (lo predice el teorema:
+  crear un grupo siempre empeora esa señal).
+- Sin socialización tampoco hay adaptación: entran tantas categorías ajenas que la comunidad se
+  queda en una meseta. La adaptación es máxima con una **dosis intermedia de desviación**: más o
+  menos una entrada no socializada cada 1000–2000 turnos. Recuerda la tesis de Durkheim sobre la
+  normalidad del crimen: sin desviación, rigidez; con demasiada, anomia.
+- Con la señal D no hay dilema: socializar siempre ayuda.
+- La tasa de entradas no socializadas explica el 81–91% de la variación con la señal original; con
+  la señal D lo explica todo el ritmo de rotación. **Refutadas:** que las curvas coincidieran
+  exactamente al ordenarlas por esa tasa (una rotación muy alta añade un coste propio) y una
+  cláusula secundaria sobre la señal D.
+
+Lectura: el beneficio de incorporar reclutas no socializados que describió March (1991) aparecería
+solo cuando el regulador colectivo no contiene un modelo de la estructura que se le exige. En 4chan,
+el gatekeeping por jerga es intenso y la creación de tablones nuevos, como /pol/, la decide la
+administración, no los participantes: lo que el modelo espera de un sistema muy socializado.
+
 ## Lectura sociológica (para discutir)
 
 La entrada con colores de la comunidad se parece a la socialización serial de Van Maanen y Schein
@@ -132,8 +157,12 @@ python c09_theory.py             # enumeración exhaustiva del teorema
 python c09_experiments.py        # ley del vocabulario, ritmo, horizonte largo, regla estricta, k (≈17 min)
 python c09c_single.py            # un solo recién llegado
 python c09_figures.py
+python c10_confirm.py            # paradoja del gatekeeping (≈30 min)
+python c10b_collapse.py          # tasa de desviación (≈15 min)
+python c10_figure.py
 ```
 
 Los archivos `FREEZE_*.txt` guardan las huellas SHA-256 del código y de los preregistros fijadas
-antes de ejecutar los análisis principales (`sha256sum -c FREEZE_C09C.txt`). En `FREEZE_C09.txt`,
-la ruta `../claude_cycle08/c08_sim.py` corresponde al `c08_sim.py` de esta carpeta (misma huella).
+antes de ejecutar los análisis principales (`sha256sum -c FREEZE_C09C.txt`). En `FREEZE_C09.txt` y
+`FREEZE_C10.txt`, la ruta `../claude_cycle08/c08_sim.py` corresponde al `c08_sim.py` de esta carpeta
+(misma huella).
