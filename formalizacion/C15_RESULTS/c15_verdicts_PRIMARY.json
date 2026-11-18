@@ -1,0 +1,87 @@
+{
+ "verdicts": {
+  "U1": "CONFIRMADA",
+  "U2": "CONFIRMADA",
+  "U3": "CONFIRMADA",
+  "U4": "CONFIRMADA",
+  "U5": "CONFIRMADA"
+ },
+ "table": [
+  {
+   "exp": "B",
+   "L": 100,
+   "observed": 0.685546875,
+   "predicted": 0.999,
+   "steps_med": 55.0,
+   "share_one_step": 0.025390625,
+   "adapt_meanD": 26.505843749999997
+  },
+  {
+   "exp": "B",
+   "L": 200,
+   "observed": 0.927734375,
+   "predicted": 0.9803,
+   "steps_med": 5.0,
+   "share_one_step": 0.30859375,
+   "adapt_meanD": 13.261659830729165
+  },
+  {
+   "exp": "B",
+   "L": 400,
+   "observed": 0.87890625,
+   "predicted": 0.9112,
+   "steps_med": 3.0,
+   "share_one_step": 0.46875,
+   "adapt_meanD": 16.623716145833335
+  },
+  {
+   "exp": "B",
+   "L": 800,
+   "observed": 0.802734375,
+   "predicted": 0.8207,
+   "steps_med": 3.0,
+   "share_one_step": 0.4765625,
+   "adapt_meanD": 18.77069401041667
+  },
+  {
+   "exp": "C",
+   "L": 100,
+   "observed": 0.724609375,
+   "predicted": 0.9405,
+   "steps_med": 29.0,
+   "share_one_step": 0.205078125,
+   "adapt_meanD": 23.950341796875
+  },
+  {
+   "exp": "C",
+   "L": 200,
+   "observed": 0.90625,
+   "predicted": 0.899,
+   "steps_med": 1.0,
+   "share_one_step": 0.5234375,
+   "adapt_meanD": 10.582327148437502
+  },
+  {
+   "exp": "C",
+   "L": 400,
+   "observed": 0.833984375,
+   "predicted": 0.8555,
+   "steps_med": 3.0,
+   "share_one_step": 0.48828125,
+   "adapt_meanD": 13.999445638020832
+  },
+  {
+   "exp": "C",
+   "L": 800,
+   "observed": 0.80078125,
+   "predicted": 0.8036,
+   "steps_med": 3.0,
+   "share_one_step": 0.490234375,
+   "adapt_meanD": 14.90023046875
+  }
+ ],
+ "no_loop": {
+  "B": 0.0,
+  "C": 0.01953125
+ }
+}

@@ -44,7 +44,7 @@ y en el dilema el reparto equilibrado se mantiene si el premio privado es menor 
 ## Resultados
 
 Todas las fases principales están preregistradas, con huellas SHA-256 del código fijadas antes de
-ejecutar. En total, 58 de 62 hipótesis confirmadas; las cuatro refutadas se describen abajo. Una
+ejecutar. En total, 63 de 67 hipótesis confirmadas; las cuatro refutadas se describen abajo. Una
 reimplementación ciega a partir de una especificación escrita reproduce los resultados principales
 (`replicacion_ciega/`).
 
@@ -203,6 +203,22 @@ tercio de su tamaño:
 Luhmann describió las dos cosas, el retraso de la semántica y las adquisiciones preadaptativas. El
 modelo indica cuándo ocurre cada una.
 
+**12. Ultraestabilidad de Ashby (`PREREG_C15_ULTRAESTABILIDAD.md`, 5 de 5).** Un regulador de segundo
+orden ciego vigila el malestar de la comunidad. No sabe qué estructura pide el entorno. Si el malestar
+no baja durante L turnos, cambia el canon al azar, añadiendo o quitando una categoría. Aun así, la
+comunidad consigue crear o disolver la categoría necesaria, y la probabilidad de que lo logre es la de
+un paseo aleatorio, calculada antes de simular:
+
+| | Paciencia 400 | Paciencia 800 |
+|---|---|---|
+| Crear: predicción / simulación | 0,911 / 0,879 | 0,821 / 0,803 |
+| Disolver: predicción / simulación | 0,856 / 0,834 | 0,804 / 0,801 |
+
+Sin ese bucle, nunca se adapta. Con poca paciencia (100 turnos), el regulador cambia el canon antes
+de que la comunidad se reorganice y el sistema se agita sin estabilizarse. Es la idea de Ashby en
+*Design for a Brain*: para adaptarse basta un criterio de fracaso y variedad aleatoria, siempre que el
+cambio sea más lento que la dinámica que lo absorbe.
+
 Lectura: una autodescripción que se corrige para aliviarse va por detrás de la estructura cuando hay
 que crear y por delante cuando hay que olvidar. Es un mecanismo para la tesis de Luhmann de que la
 semántica sigue a la estructura con retraso. La autodescripción ruidosa y frecuente (como la jerga que
@@ -263,11 +279,12 @@ python c13b_verdicts.py
 python c13b_uncertainty.py        # intervalos bootstrap emparejados de C13b
 python c13c_confirm.py; python c13c_verdicts.py   # el filo de la divisoria (≈25 min)
 python c13d_confirm.py            # desfase o adelanto de la semántica (≈3 min)
+python c15_markov.py; python c15_confirm.py; python c15_verdicts.py   # ultraestabilidad (≈25 min)
 python c13x_explore.py            # exploratorio: frecuencia, ruido y memoria
 python c13x_theta_u1.py
 ```
 
 Los archivos `FREEZE_*.txt` guardan las huellas SHA-256 del código y de los preregistros fijadas
 antes de ejecutar los análisis principales (`sha256sum -c FREEZE_C09C.txt`). En `FREEZE_C09.txt`,
-`FREEZE_C10.txt`, `FREEZE_C12.txt`, `FREEZE_C13.txt`, `FREEZE_C13B.txt`, `FREEZE_C13C.txt` y `FREEZE_C13D.txt`, la ruta `../claude_cycle08/c08_sim.py` corresponde al
+`FREEZE_C10.txt`, `FREEZE_C12.txt`, `FREEZE_C13.txt`, `FREEZE_C13B.txt`, `FREEZE_C13C.txt`, `FREEZE_C13D.txt` y `FREEZE_C15.txt`, la ruta `../claude_cycle08/c08_sim.py` corresponde al
 `c08_sim.py` de esta carpeta (misma huella).
