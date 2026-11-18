@@ -44,7 +44,7 @@ y en el dilema el reparto equilibrado se mantiene si el premio privado es menor 
 ## Resultados
 
 Todas las fases principales están preregistradas, con huellas SHA-256 del código fijadas antes de
-ejecutar. En total, 76 de 80 hipótesis confirmadas; las cuatro refutadas se describen abajo. Una
+ejecutar. En total, 81 de 85 hipótesis confirmadas; las cuatro refutadas se describen abajo. Una
 reimplementación ciega a partir de una especificación escrita reproduce los resultados principales
 (`replicacion_ciega/`).
 
@@ -261,6 +261,26 @@ Con la señal que sí lo sabe no hace falta compensar, pero la tolerancia cero s
 creación (34%), porque una categoría nueva solo sobrevive si nace con varios miembros a la vez.
 Figura en `C17_RESULTS/c17_figura.png`.
 
+**15. La sanción fija un tamaño mínimo de fundación (`PREREG_C18_UMBRAL_DE_SANCION.md`, 5 de 5).**
+Si una comunidad sanciona toda categoría con menos de v_min miembros, ¿qué tamaño debe tener un grupo
+fundador? La demostración está en [`TEOREMA_C18.md`](TEOREMA_C18.md):
+- **Proposición 8:** con sanción total, un pionero solitario es devuelto antes de que nadie pueda
+  unirse a él, y una categoría con v_min miembros es inmune. Se comprueba exactamente en el
+  simulador: 8000 de 8000 casos.
+- **Tamaño fundador:** el requisito se combina con el modelo que le falta al regulador tomando el más
+  exigente, j* = max(v_min, j_λ).
+
+| j* | 1–2 | 3 | 4 |
+|---|---|---|---|
+| Se adaptan (16 configuraciones) | 100% | 12–25% | 0–0,2% |
+
+- **Tolerancia cero:** bloquea incluso al regulador que sabe lo que necesita. Con rotación, elimina la
+  variedad de los recién llegados en el mismo tick en que entran.
+- **Sanción moderada:** con modelo, poda las categorías solitarias que compiten entre sí y crea en
+  menos de la mitad de tiempo (214 frente a 480 ticks).
+
+Figura en `C18_RESULTS/c18_figura.png`.
+
 Lectura: una autodescripción que se corrige para aliviarse va por detrás de la estructura cuando hay
 que crear y por delante cuando hay que olvidar. Es un mecanismo para la tesis de Luhmann de que la
 semántica sigue a la estructura con retraso. La autodescripción ruidosa y frecuente (como la jerga que
@@ -324,11 +344,12 @@ python c13d_confirm.py            # desfase o adelanto de la semántica (≈3 mi
 python c15_markov.py; python c15_confirm.py; python c15_verdicts.py   # ultraestabilidad (≈25 min)
 python c16_confirm.py; python c16_verdicts.py   # fracción de modelo requerida (≈20 min)
 python c17_confirm.py C; python c17_confirm.py D; python c17_verdicts.py; python c17_figure.py   # robustez compensatoria (≈30 min)
+python c18_theory.py 8000 881000; python c18_confirm.py stair; python c18_confirm.py rot; python c18_verdicts.py; python c18_figure.py   # umbral de sanción (≈25 min)
 python c13x_explore.py            # exploratorio: frecuencia, ruido y memoria
 python c13x_theta_u1.py
 ```
 
 Los archivos `FREEZE_*.txt` guardan las huellas SHA-256 del código y de los preregistros fijadas
 antes de ejecutar los análisis principales (`sha256sum -c FREEZE_C09C.txt`). En `FREEZE_C09.txt`,
-`FREEZE_C10.txt`, `FREEZE_C12.txt`, `FREEZE_C13.txt`, `FREEZE_C13B.txt`, `FREEZE_C13C.txt`, `FREEZE_C13D.txt`, `FREEZE_C15.txt`, `FREEZE_C16.txt` y `FREEZE_C17.txt`, la ruta `../claude_cycle08/c08_sim.py` corresponde al
-`c08_sim.py` de esta carpeta (misma huella).
+`FREEZE_C10.txt`, `FREEZE_C12.txt`, `FREEZE_C13.txt`, `FREEZE_C13B.txt`, `FREEZE_C13C.txt`, `FREEZE_C13D.txt`, `FREEZE_C15.txt`, `FREEZE_C16.txt`, `FREEZE_C17.txt` y `FREEZE_C18.txt`, la ruta `../claude_cycle08/c08_sim.py` corresponde al
+`c08_sim.py` de esta carpeta (misma huella), y en `FREEZE_C18.txt` la ruta `../claude_cycle17/c17_sim.py` corresponde al `c17_sim.py` de esta carpeta.

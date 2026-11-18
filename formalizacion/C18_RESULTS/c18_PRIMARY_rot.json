@@ -1,0 +1,39 @@
+{
+ "status": "PRIMARY",
+ "part": "rot",
+ "M": 512,
+ "rows": [
+  {
+   "q": 0.0,
+   "v_min": 3,
+   "n": 512,
+   "stab_meanD": 16.7593017578125,
+   "adapt_ever": 0.6171875,
+   "secs": 62
+  },
+  {
+   "q": 1.0,
+   "v_min": 1,
+   "n": 512,
+   "stab_meanD": 17.045828125,
+   "adapt_ever": 0.578125,
+   "secs": 129
+  },
+  {
+   "q": 1.0,
+   "v_min": 2,
+   "n": 512,
+   "stab_meanD": 0.1177578125,
+   "adapt_ever": 0.0,
+   "secs": 196
+  },
+  {
+   "q": 1.0,
+   "v_min": 3,
+   "n": 512,
+   "stab_meanD": 0.1177578125,
+   "adapt_ever": 0.0,
+   "secs": 263
+  }
+ ]
+}
