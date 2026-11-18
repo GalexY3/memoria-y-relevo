@@ -1,0 +1,24 @@
+{
+ "status": "PRIMARY",
+ "rows": [
+  {
+   "signal": "coll",
+   "n": 1024,
+   "T": 6400,
+   "foreign_alive": 0.255859375,
+   "solved": 0.748046875,
+   "mean_size_if_alive": 20.52671755725191,
+   "share_unsolved_with_5plus_colours": 1.0
+  },
+  {
+   "signal": "D",
+   "n": 1024,
+   "T": 6400,
+   "foreign_alive": 0.0,
+   "solved": 1.0,
+   "mean_size_if_alive": null,
+   "share_unsolved_with_5plus_colours": null
+  }
+ ],
+ "sha256": "53207da13c41728c209373f1708fcab8b7e164da79899af7bf5f8662f2ca81c1"
+}

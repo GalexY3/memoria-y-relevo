@@ -1,0 +1,134 @@
+[
+ {
+  "N": 12,
+  "k": 3,
+  "T": 4,
+  "n_states": 77,
+  "C_equals_D_when_m_eq_k": true,
+  "min_cost_change_of_new_group_under_C": 2,
+  "table": {
+   "C": {
+    "m<k | NO_strict_improvement | TRAPPED": 4,
+    "m<k | has_strict_improvement | TRAPPED": 3,
+    "m=k | has_strict_improvement | reaches_solved": 11,
+    "m>k | NO_strict_improvement | reaches_solved": 6,
+    "m>k | has_strict_improvement | reaches_solved": 52
+   },
+   "D": {
+    "m<k | has_strict_improvement | reaches_solved": 7,
+    "m=k | has_strict_improvement | reaches_solved": 11,
+    "m>k | has_strict_improvement | reaches_solved": 58
+   }
+  }
+ },
+ {
+  "N": 16,
+  "k": 4,
+  "T": 4,
+  "n_states": 231,
+  "C_equals_D_when_m_eq_k": true,
+  "min_cost_change_of_new_group_under_C": 2,
+  "table": {
+   "C": {
+    "m<k | NO_strict_improvement | TRAPPED": 10,
+    "m<k | has_strict_improvement | TRAPPED": 20,
+    "m=k | has_strict_improvement | reaches_solved": 33,
+    "m>k | NO_strict_improvement | reaches_solved": 9,
+    "m>k | has_strict_improvement | reaches_solved": 158
+   },
+   "D": {
+    "m<k | has_strict_improvement | reaches_solved": 30,
+    "m=k | has_strict_improvement | reaches_solved": 33,
+    "m>k | has_strict_improvement | reaches_solved": 167
+   }
+  }
+ },
+ {
+  "N": 20,
+  "k": 4,
+  "T": 5,
+  "n_states": 627,
+  "C_equals_D_when_m_eq_k": true,
+  "min_cost_change_of_new_group_under_C": 3,
+  "table": {
+   "C": {
+    "m<k | NO_strict_improvement | TRAPPED": 12,
+    "m<k | has_strict_improvement | TRAPPED": 32,
+    "m=k | has_strict_improvement | reaches_solved": 63,
+    "m>k | NO_strict_improvement | reaches_solved": 27,
+    "m>k | has_strict_improvement | reaches_solved": 492
+   },
+   "D": {
+    "m<k | has_strict_improvement | reaches_solved": 44,
+    "m=k | has_strict_improvement | reaches_solved": 63,
+    "m>k | has_strict_improvement | reaches_solved": 519
+   }
+  }
+ },
+ {
+  "N": 24,
+  "k": 4,
+  "T": 6,
+  "n_states": 1575,
+  "C_equals_D_when_m_eq_k": true,
+  "min_cost_change_of_new_group_under_C": 4,
+  "table": {
+   "C": {
+    "m<k | NO_strict_improvement | TRAPPED": 15,
+    "m<k | has_strict_improvement | TRAPPED": 46,
+    "m=k | has_strict_improvement | reaches_solved": 107,
+    "m>k | NO_strict_improvement | reaches_solved": 77,
+    "m>k | has_strict_improvement | reaches_solved": 1329
+   },
+   "D": {
+    "m<k | has_strict_improvement | reaches_solved": 61,
+    "m=k | has_strict_improvement | reaches_solved": 107,
+    "m>k | has_strict_improvement | reaches_solved": 1406
+   }
+  }
+ },
+ {
+  "N": 30,
+  "k": 5,
+  "T": 6,
+  "n_states": 5604,
+  "C_equals_D_when_m_eq_k": true,
+  "min_cost_change_of_new_group_under_C": 4,
+  "table": {
+   "C": {
+    "m<k | NO_strict_improvement | TRAPPED": 39,
+    "m<k | has_strict_improvement | TRAPPED": 258,
+    "m=k | has_strict_improvement | reaches_solved": 376,
+    "m>k | NO_strict_improvement | reaches_solved": 148,
+    "m>k | has_strict_improvement | reaches_solved": 4782
+   },
+   "D": {
+    "m<k | has_strict_improvement | reaches_solved": 297,
+    "m=k | has_strict_improvement | reaches_solved": 376,
+    "m>k | has_strict_improvement | reaches_solved": 4930
+   }
+  }
+ },
+ {
+  "N": 32,
+  "k": 4,
+  "T": 8,
+  "n_states": 8349,
+  "C_equals_D_when_m_eq_k": true,
+  "min_cost_change_of_new_group_under_C": 6,
+  "table": {
+   "C": {
+    "m<k | NO_strict_improvement | TRAPPED": 20,
+    "m<k | has_strict_improvement | TRAPPED": 82,
+    "m=k | has_strict_improvement | reaches_solved": 248,
+    "m>k | NO_strict_improvement | reaches_solved": 461,
+    "m>k | has_strict_improvement | reaches_solved": 7537
+   },
+   "D": {
+    "m<k | has_strict_improvement | reaches_solved": 102,
+    "m=k | has_strict_improvement | reaches_solved": 248,
+    "m>k | has_strict_improvement | reaches_solved": 7998
+   }
+  }
+ }
+]

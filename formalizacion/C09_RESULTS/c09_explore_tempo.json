@@ -1,0 +1,41 @@
+{
+ "status": "EXPLORATORY_POST_HOC",
+ "M": 256,
+ "single_foreign_newcomer": {
+  "25": {
+   "foreign_gone": 0.4609375,
+   "solved": 0.1328125,
+   "foreign_size_mean_if_alive": 1.6594202898550725
+  },
+  "100": {
+   "foreign_gone": 0.66796875,
+   "solved": 0.5,
+   "foreign_size_mean_if_alive": 4.870588235294117
+  },
+  "400": {
+   "foreign_gone": 0.69921875,
+   "solved": 0.6796875,
+   "foreign_size_mean_if_alive": 15.077922077922079
+  },
+  "1600": {
+   "foreign_gone": 0.703125,
+   "solved": 0.68359375,
+   "foreign_size_mean_if_alive": 20.30263157894737
+  },
+  "6400": {
+   "foreign_gone": 0.70703125,
+   "solved": 0.6953125,
+   "foreign_size_mean_if_alive": 20.493333333333332
+  }
+ },
+ "slow_tempo": [
+  {
+   "delta": 1000,
+   "recovery": 0.0625
+  },
+  {
+   "delta": 4000,
+   "recovery": 0.16015625
+  }
+ ]
+}

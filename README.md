@@ -32,8 +32,12 @@ La aportación de este trabajo de clase es el diseño experimental. El documento
 
 ## Formalización y simulación
 
-La carpeta [`formalizacion/`](formalizacion/) implementa el diseño y prueba sus predicciones con
-hipótesis preregistradas. Resultado principal: con la señal colectiva del documento, una comunidad
-que ya coordinaba sobrevive al relevo de un tercio de sus miembros en el 100% de los casos si los
-recién llegados entran con colores que ya usa la comunidad, y en torno al 3% si entran con
-cualquier color. Lo que transmite la socialización es el vocabulario del grupo.
+La carpeta [`formalizacion/`](formalizacion/) implementa el diseño, demuestra sus propiedades y
+prueba sus predicciones con hipótesis preregistradas (25 de 27 confirmadas). Resultado principal:
+la señal colectiva del documento sabe qué tamaño debe tener cada grupo, pero no cuántos grupos debe
+haber, y esa información la guarda el vocabulario de la comunidad. Si los recién llegados entran con
+colores que ya usa la comunidad, se recupera exactamente cuando los veteranos conservan todas las
+categorías, con una tasa que se calcula de antemano. Si entran con cualquier color, la recuperación
+se vuelve cientos de veces más lenta, y una sola persona no socializada basta para dejar un quinto
+grupo en una de cada cuatro comunidades. Con una señal que cuenta los grupos, la socialización deja
+de ser necesaria.
